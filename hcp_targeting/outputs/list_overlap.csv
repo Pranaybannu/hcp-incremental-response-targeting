@@ -1,0 +1,5 @@
+scope,model,n,fraction_3plus_prior_visits,fraction_visited_last_30d,mean_true_effect
+heldout_test,current_predictive,80,0.95,0.7,0.020920961830766527
+heldout_test,uplift_t_learner,80,0.05,0.0,0.29403748163578525
+full_universe_descriptive,current_predictive,400,0.95,0.685,0.022845820720557547
+full_universe_descriptive,uplift_t_learner,400,0.0375,0.0025,0.2944377453492737

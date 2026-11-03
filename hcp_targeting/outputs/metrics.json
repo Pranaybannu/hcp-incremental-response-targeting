@@ -1,0 +1,36 @@
+{
+  "current_predictive": {
+    "auuc_ht": 0.0476921875,
+    "qini_area_above_random": 0.0014421875,
+    "top_k": 80,
+    "top_k_observed_uplift": 0.05555555555555558,
+    "top_k_treated": 44,
+    "top_k_control": 36,
+    "top_k_oracle_mean_effect": 0.020920961830766527,
+    "top_k_oracle_expected_incremental_responses": 1.6736769464613221
+  },
+  "broad_predictive": {
+    "auuc_ht": 0.0571578125,
+    "qini_area_above_random": 0.0109078125,
+    "top_k": 80,
+    "top_k_observed_uplift": 0.050000000000000044,
+    "top_k_treated": 40,
+    "top_k_control": 40,
+    "top_k_oracle_mean_effect": 0.015405875467101668,
+    "top_k_oracle_expected_incremental_responses": 1.2324700373681334
+  },
+  "uplift_t_learner": {
+    "auuc_ht": 0.0457578125,
+    "qini_area_above_random": -0.0004921874999999978,
+    "top_k": 80,
+    "top_k_observed_uplift": 0.1325828642901814,
+    "top_k_treated": 39,
+    "top_k_control": 41,
+    "top_k_oracle_mean_effect": 0.29403748163578525,
+    "top_k_oracle_expected_incremental_responses": 23.52299853086282
+  },
+  "qini_difference_bootstrap_95pct": [
+    -0.06166828125,
+    0.053853671875
+  ]
+}
