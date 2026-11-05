@@ -1,0 +1,499 @@
+{
+  "source": "User uploaded HCP_Data_Generator_Fresh (1).zip",
+  "retained_files": [
+    {
+      "uploaded_path": "generate_hcp_data.py",
+      "repository_path": "scripts/generate_hcp_data.py",
+      "source_sha256": "8e126c6edff84c0265b8ae78b5bb13e0877bda509f87fa36c399ee074a9f5bef"
+    },
+    {
+      "uploaded_path": "preprocess_hcp.py",
+      "repository_path": "scripts/preprocess_hcp.py",
+      "source_sha256": "cb2d742bcbdc1753f55bdb032ee3d827ac08700c8df496fd02c8c59d0c30e8cd"
+    },
+    {
+      "uploaded_path": "feature_engineering_split.py",
+      "repository_path": "scripts/feature_engineering_split.py",
+      "source_sha256": "a6ec7621a1eb82b7e1d70d7b0f5ca6b44b794b6a894e1409f23cdcb68e896da2"
+    },
+    {
+      "uploaded_path": "train_classifiers.py",
+      "repository_path": "scripts/train_classifiers.py",
+      "source_sha256": "1f33965259237ccd28b16dc58087695b31440949bfce0471b5a2fe6d3f0de36b"
+    },
+    {
+      "uploaded_path": "refit_lr_rfc.py",
+      "repository_path": "scripts/refit_lr_rfc.py",
+      "source_sha256": "2025f632afbd98630174ca9992007762dad920a8f963330af94b6582e994f415"
+    },
+    {
+      "uploaded_path": "build_ranking_datasets.py",
+      "repository_path": "scripts/build_ranking_datasets.py",
+      "source_sha256": "366f2da3b295e0a2bdce3a6c6e7101ac6daed51c7e2557f6a9fa81aea734fcf7"
+    },
+    {
+      "uploaded_path": "explain_hcp.py",
+      "repository_path": "scripts/explain_hcp.py",
+      "source_sha256": "b2dafa696b558b7929f9175f52eca366da39ab9eb5882f1bf4a5bf945a6eec93"
+    },
+    {
+      "uploaded_path": "HCP_LR_Uplift/train_uplift_lr.py",
+      "repository_path": "scripts/train_uplift_lr.py",
+      "source_sha256": "a97e997220d54b816681dd06b0cde27b336a33dbe38fde40f43cbf6936db0db8"
+    },
+    {
+      "uploaded_path": "data/historical_features_only.csv",
+      "repository_path": "data/raw/historical_features_only.csv",
+      "source_sha256": "43dd6575d1078e069e293acf1b04979529c0e7d10217188e56f8d7946e3db1ee"
+    },
+    {
+      "uploaded_path": "data/summary.json",
+      "repository_path": "data/raw/summary.json",
+      "source_sha256": "565cffccffd64075e29e04229289b6416576cad30652be41e329126e669c7dd2"
+    },
+    {
+      "uploaded_path": "data/historical_visit_log.csv",
+      "repository_path": "data/raw/historical_visit_log.csv",
+      "source_sha256": "029613dbde1c5be67462011093eab8e261b5358f2fbd65449b9e15018ce438a1"
+    },
+    {
+      "uploaded_path": "data/hcp_dataset_4000.csv",
+      "repository_path": "data/raw/hcp_dataset_4000.csv",
+      "source_sha256": "528967242e7577bc7dd4aadf33eaa54f4a83c270848704bbc251f6210bd80feb"
+    },
+    {
+      "uploaded_path": "data/simulation_truth_DO_NOT_TRAIN.csv",
+      "repository_path": "data/raw/simulation_truth_DO_NOT_TRAIN.csv",
+      "source_sha256": "301297d59bf1606a2831b427e9b2e19aefed97ca8e77c671ff89cfe9c39dbd11"
+    },
+    {
+      "uploaded_path": "outputs/ids_test.csv",
+      "repository_path": "data/splits/ids_test.csv",
+      "source_sha256": "12b965879327d62fd44ed296a48885e86569f38d903f59a46e588b5b208b74cd"
+    },
+    {
+      "uploaded_path": "outputs/ids_validation.csv",
+      "repository_path": "data/splits/ids_validation.csv",
+      "source_sha256": "8bb231b81f8f8191f13832396bd84b9f6f1fe986a6107dbf6719e01a5b7373fb"
+    },
+    {
+      "uploaded_path": "outputs/y_test.csv",
+      "repository_path": "data/splits/y_test.csv",
+      "source_sha256": "254c4fd43c1a15efa1810f1ff6d651032cd6cc16af0a69374ab15727bfb56488"
+    },
+    {
+      "uploaded_path": "outputs/X_test.csv",
+      "repository_path": "data/splits/X_test.csv",
+      "source_sha256": "869a754b5d2086080d579e3c735682e4779aa2eeca58b28db6322382d4690f9b"
+    },
+    {
+      "uploaded_path": "outputs/y_validation.csv",
+      "repository_path": "data/splits/y_validation.csv",
+      "source_sha256": "f2af6630ebb39cfa16836b60c09fc0ec47a432b444bd06393bf1aa9316c6f7b9"
+    },
+    {
+      "uploaded_path": "outputs/T_validation.csv",
+      "repository_path": "data/splits/T_validation.csv",
+      "source_sha256": "7df6996902f7d80b7df96bb39c19059d587fd957ecbd3ecf4101640598dda81d"
+    },
+    {
+      "uploaded_path": "outputs/T_train.csv",
+      "repository_path": "data/splits/T_train.csv",
+      "source_sha256": "2d4a117d1516e4f3aa988fb4a0d07461d6ced3e27b3b5aab34eef1dfa382df8f"
+    },
+    {
+      "uploaded_path": "outputs/T_test.csv",
+      "repository_path": "data/splits/T_test.csv",
+      "source_sha256": "3307f23985b9a1150be11b63ebc9a3922d8a5e69e287779436e8d29e6851d5d2"
+    },
+    {
+      "uploaded_path": "outputs/X_validation.csv",
+      "repository_path": "data/splits/X_validation.csv",
+      "source_sha256": "e565c76ce8db5ac8d46f2df65565dff2dfa33712f3e6e69c84a0df6c480aeb1c"
+    },
+    {
+      "uploaded_path": "outputs/X_train.csv",
+      "repository_path": "data/splits/X_train.csv",
+      "source_sha256": "3ea27563d1ebba7a2f417ae15ddcfa5d40dcefd2c6b64a739d5287b26bddd674"
+    },
+    {
+      "uploaded_path": "outputs/split_manifest.csv",
+      "repository_path": "data/splits/split_manifest.csv",
+      "source_sha256": "5eca775a9138de9310b268f8e8f32c92a87981e52747cbe337af99b25964b3d7"
+    },
+    {
+      "uploaded_path": "outputs/split_report.json",
+      "repository_path": "data/splits/split_report.json",
+      "source_sha256": "a54c776d311f8b317d54ac8df97d085a29f5d43b2288f5ea962c4db2d7f67914"
+    },
+    {
+      "uploaded_path": "outputs/ids_train.csv",
+      "repository_path": "data/splits/ids_train.csv",
+      "source_sha256": "94dba011a1bd6637ed136ed20cf2bee26b4d00069ab434d3e38627d93c400d8a"
+    },
+    {
+      "uploaded_path": "outputs/y_train.csv",
+      "repository_path": "data/splits/y_train.csv",
+      "source_sha256": "f3dd1ac221efbe27e33656c1c49c3fdbfaa873effe9aa52edf4e1bbf84e60afc"
+    },
+    {
+      "uploaded_path": "outputs/hcp_engineered.csv",
+      "repository_path": "data/splits/hcp_engineered.csv",
+      "source_sha256": "30554a928e8adb2da62dee7b056d80cf9e73f76f93f009ba82662d05119a32fa"
+    },
+    {
+      "uploaded_path": "HCP_Preprocessing_Steps_1_2/outputs/01_hcp_imputed.csv",
+      "repository_path": "data/processed/01_hcp_imputed.csv",
+      "source_sha256": "9714fda0ddb1fb14bdc95a13c33020405baf8b573fca59c0606c8385b8d254c6"
+    },
+    {
+      "uploaded_path": "HCP_Preprocessing_Steps_1_2/outputs/preprocessing_report.json",
+      "repository_path": "data/processed/preprocessing_report.json",
+      "source_sha256": "598671d2320ab5d1f405c792467c3373b8b4a1db90f88b465b4a41b9aab585a2"
+    },
+    {
+      "uploaded_path": "HCP_Preprocessing_Steps_1_2/outputs/02_hcp_encoded.csv",
+      "repository_path": "data/processed/02_hcp_encoded.csv",
+      "source_sha256": "632085070fa80a6d761e4153910ade8aec035b5c826937595fed2ad53c1ac924"
+    },
+    {
+      "uploaded_path": "HCP_Preprocessing_Steps_1_2/outputs/04_hcp_ids_treatment_target.csv",
+      "repository_path": "data/processed/04_hcp_ids_treatment_target.csv",
+      "source_sha256": "153d79edd1a2cf5003c31c53d58437cfed7eed4af6531c0b974d0913b5098087"
+    },
+    {
+      "uploaded_path": "HCP_Preprocessing_Steps_1_2/outputs/03_model_features_X.csv",
+      "repository_path": "data/processed/03_model_features_X.csv",
+      "source_sha256": "03e11880fd54f5e1da1cb95a5f89a22145b913bfe70743afa9b7d9bed67a84c1"
+    },
+    {
+      "uploaded_path": "classification_results/xgboost_validation_classification_report.csv",
+      "repository_path": "results/classification/xgboost_validation_classification_report.csv",
+      "source_sha256": "bc1cf7963f99bb5d74cdf18969cee5dea8e8c2aa0b1208ba9b545e3df33307b7"
+    },
+    {
+      "uploaded_path": "classification_results/decision_tree_validation_classification_report.csv",
+      "repository_path": "results/classification/decision_tree_validation_classification_report.csv",
+      "source_sha256": "823551745718b45ee8495fed2cdebf8070e48a75e845c59e514419d9e533a668"
+    },
+    {
+      "uploaded_path": "classification_results/decision_tree_grid_results.csv",
+      "repository_path": "results/classification/decision_tree_grid_results.csv",
+      "source_sha256": "afe2f0143cbac82175aed70f05a57fe8e5f58038e1333852a0da81677ef34b26"
+    },
+    {
+      "uploaded_path": "classification_results/decision_tree_validation_classification_report.txt",
+      "repository_path": "results/classification/decision_tree_validation_classification_report.txt",
+      "source_sha256": "18db36bbb9f47be4828e7334ca9ccec6ac9edda1ad51e24083f51a72b9661497"
+    },
+    {
+      "uploaded_path": "classification_results/xgboost_best.joblib",
+      "repository_path": "results/classification/xgboost_best.joblib",
+      "source_sha256": "3c4da6c98dc18456122f19813d992ca3018b9a27041397955a33475861e1da42"
+    },
+    {
+      "uploaded_path": "classification_results/logistic_regression_grid_results.csv",
+      "repository_path": "results/classification/logistic_regression_grid_results.csv",
+      "source_sha256": "9c7e0add389f200a879e7cae10f47de0c6f8a382d8f27ed5ea0093c86e5bc806"
+    },
+    {
+      "uploaded_path": "classification_results/validation_predictions.csv",
+      "repository_path": "results/classification/validation_predictions.csv",
+      "source_sha256": "a6b89d2fe4ab457f6e00dd9843af9e198ba3e0816a9b2b5348f9ce65c65c476e"
+    },
+    {
+      "uploaded_path": "classification_results/logistic_regression_validation_classification_report.txt",
+      "repository_path": "results/classification/logistic_regression_validation_classification_report.txt",
+      "source_sha256": "2790f4bb5609d9f2fdb532cb03d5ce1be55da2481cd4fea63e6ea6992d0c16f6"
+    },
+    {
+      "uploaded_path": "classification_results/decision_tree_best.joblib",
+      "repository_path": "results/classification/decision_tree_best.joblib",
+      "source_sha256": "9764088d11d50acf03dc0e32fd9c320094888a23db4affabd159bd7f0450a2d0"
+    },
+    {
+      "uploaded_path": "classification_results/gradient_boosting_grid_results.csv",
+      "repository_path": "results/classification/gradient_boosting_grid_results.csv",
+      "source_sha256": "72033551ce235f8bb79a846ca45a74cc5491014757c781af53b491dab5db370e"
+    },
+    {
+      "uploaded_path": "classification_results/run_summary.json",
+      "repository_path": "results/classification/run_summary.json",
+      "source_sha256": "420d4734aa6af51d20cf254fa776d5aa9dfc68fbf459a2a9ff823008a31b4280"
+    },
+    {
+      "uploaded_path": "classification_results/logistic_regression_best.joblib",
+      "repository_path": "results/classification/logistic_regression_best.joblib",
+      "source_sha256": "d287c9a099a5e007833630146b026086dd66b8281665632252e32b4e6bf2f8fe"
+    },
+    {
+      "uploaded_path": "classification_results/gradient_boosting_validation_classification_report.txt",
+      "repository_path": "results/classification/gradient_boosting_validation_classification_report.txt",
+      "source_sha256": "a9de91773ccdc0223da11865c4d199b64082c3737be47043909edc197d1108a6"
+    },
+    {
+      "uploaded_path": "classification_results/selected_model.joblib",
+      "repository_path": "results/classification/selected_model.joblib",
+      "source_sha256": "725a3bec88292d6fc05c473bb20714585c207deeb7522e18c41ff5e28279ec90"
+    },
+    {
+      "uploaded_path": "classification_results/random_forest_best.joblib",
+      "repository_path": "results/classification/random_forest_best.joblib",
+      "source_sha256": "9c5823299595293c6afc6895c3842efcf3168cd924f7aaf5e4cd84f1cc2c3dc5"
+    },
+    {
+      "uploaded_path": "classification_results/xgboost_grid_results.csv",
+      "repository_path": "results/classification/xgboost_grid_results.csv",
+      "source_sha256": "1a522d123ba307f710d6639fcacc2f4798fff77cdb0ff46867601155f0c9dbea"
+    },
+    {
+      "uploaded_path": "classification_results/random_forest_grid_results.csv",
+      "repository_path": "results/classification/random_forest_grid_results.csv",
+      "source_sha256": "4400dbd245b8a2c5832c8865bb9dd94791c98659093180b8829276438b7362c4"
+    },
+    {
+      "uploaded_path": "classification_results/validation_comparison.csv",
+      "repository_path": "results/classification/validation_comparison.csv",
+      "source_sha256": "5fd3783a9c0089a774886216d9406d29386d0cf77e8de2bcb6ee90540fb93560"
+    },
+    {
+      "uploaded_path": "classification_results/random_forest_validation_classification_report.txt",
+      "repository_path": "results/classification/random_forest_validation_classification_report.txt",
+      "source_sha256": "6deed903c795a3930df7260ca677d38a86f4e34acc018c750c4251fefc540337"
+    },
+    {
+      "uploaded_path": "classification_results/random_forest_validation_classification_report.csv",
+      "repository_path": "results/classification/random_forest_validation_classification_report.csv",
+      "source_sha256": "9877c33c34ff300ede0b39be4068ee27c77d7286793b65ebef28144821d93748"
+    },
+    {
+      "uploaded_path": "classification_results/xgboost_validation_classification_report.txt",
+      "repository_path": "results/classification/xgboost_validation_classification_report.txt",
+      "source_sha256": "22ca96b416aef59dce1d1c2910dd16dafee4578481392434e3f8a8b84ed07217"
+    },
+    {
+      "uploaded_path": "classification_results/logistic_regression_validation_classification_report.csv",
+      "repository_path": "results/classification/logistic_regression_validation_classification_report.csv",
+      "source_sha256": "d5c5eb9db1c755ccd85c8330aefa629439a17dfb17e8b6e20ea6d9b75e6e2464"
+    },
+    {
+      "uploaded_path": "classification_results/gradient_boosting_validation_classification_report.csv",
+      "repository_path": "results/classification/gradient_boosting_validation_classification_report.csv",
+      "source_sha256": "b1dc5db784362edf31be8df7da672716764156eb20f2123a91b68a82283d4fb7"
+    },
+    {
+      "uploaded_path": "classification_results/gradient_boosting_best.joblib",
+      "repository_path": "results/classification/gradient_boosting_best.joblib",
+      "source_sha256": "725a3bec88292d6fc05c473bb20714585c207deeb7522e18c41ff5e28279ec90"
+    },
+    {
+      "uploaded_path": "refit_results/test_comparison.csv",
+      "repository_path": "results/refit/test_comparison.csv",
+      "source_sha256": "36af30d2f16ebb965ee640d08a321b88d99f9570e99c8e772a8a2b6de61e8000"
+    },
+    {
+      "uploaded_path": "refit_results/logistic_regression/test_predictions.csv",
+      "repository_path": "results/refit/logistic_regression/test_predictions.csv",
+      "source_sha256": "e4499a584329b6c9d6a3abcdf8e2707966aa45832c222d8abcfa8b79aa553856"
+    },
+    {
+      "uploaded_path": "refit_results/logistic_regression/test_classification_report.txt",
+      "repository_path": "results/refit/logistic_regression/test_classification_report.txt",
+      "source_sha256": "b8f9b8c6a30317c294acf15e2e7e1c5843bc0000acb53b3703a2ce0d0d297d5d"
+    },
+    {
+      "uploaded_path": "refit_results/logistic_regression/test_metrics.json",
+      "repository_path": "results/refit/logistic_regression/test_metrics.json",
+      "source_sha256": "11d18def78daa1b8c302fea79299d3ccfc222558a8269f4264a4373846683b31"
+    },
+    {
+      "uploaded_path": "refit_results/logistic_regression/confusion_matrix.csv",
+      "repository_path": "results/refit/logistic_regression/confusion_matrix.csv",
+      "source_sha256": "701b894ec0c69ada474b9fb680418fc3e298633fda0c10601cfccdc03dcb5baf"
+    },
+    {
+      "uploaded_path": "refit_results/logistic_regression/test_classification_report.csv",
+      "repository_path": "results/refit/logistic_regression/test_classification_report.csv",
+      "source_sha256": "879bc22190a53f69f45660e39350b4f9a7f0096af18cdc2a389060411f2d9ef2"
+    },
+    {
+      "uploaded_path": "refit_results/logistic_regression/logistic_regression_final.joblib",
+      "repository_path": "results/refit/logistic_regression/logistic_regression_final.joblib",
+      "source_sha256": "d191d3d28533223bd00bf9e67025a9698168f251403d491ef99f39dcc89555a0"
+    },
+    {
+      "uploaded_path": "refit_results/random_forest/test_predictions.csv",
+      "repository_path": "results/refit/random_forest/test_predictions.csv",
+      "source_sha256": "4b7d4738296e0b4a4cb4894b659f3f760d9f6be55994d09ad0a394c82eda2020"
+    },
+    {
+      "uploaded_path": "refit_results/random_forest/test_classification_report.txt",
+      "repository_path": "results/refit/random_forest/test_classification_report.txt",
+      "source_sha256": "4a1e71bbc8f8dde8c1cac6bc8f895fcc49481e4ee4206a3729ea7d2c2908eed0"
+    },
+    {
+      "uploaded_path": "refit_results/random_forest/random_forest_final.joblib",
+      "repository_path": "results/refit/random_forest/random_forest_final.joblib",
+      "source_sha256": "a62250b7403cd7d856ddfedae37846e3699784bef6c7fc40b803f4547186d621"
+    },
+    {
+      "uploaded_path": "refit_results/random_forest/test_metrics.json",
+      "repository_path": "results/refit/random_forest/test_metrics.json",
+      "source_sha256": "b38930221870186d3956a3027e103db35d4fc1e22bed075f121e34fc795ba669"
+    },
+    {
+      "uploaded_path": "refit_results/random_forest/confusion_matrix.csv",
+      "repository_path": "results/refit/random_forest/confusion_matrix.csv",
+      "source_sha256": "c1026eccae743f4ec38d32dfd2f78b56c366764d08784bf5baf1cc66ddc07346"
+    },
+    {
+      "uploaded_path": "refit_results/random_forest/test_classification_report.csv",
+      "repository_path": "results/refit/random_forest/test_classification_report.csv",
+      "source_sha256": "0221ca31df39f9b9ef9d815736d45c965ed9e090c7a27f422234338fc24276cf"
+    },
+    {
+      "uploaded_path": "uplift_results/uplift_by_quintile.csv",
+      "repository_path": "results/uplift/uplift_by_quintile.csv",
+      "source_sha256": "7726790a436389298f527aa7807c52b3d1f14893245a51a5c7b926d428a4f284"
+    },
+    {
+      "uploaded_path": "uplift_results/uplift_lr_uplift_curve.csv",
+      "repository_path": "results/uplift/uplift_lr_uplift_curve.csv",
+      "source_sha256": "eb3cd8a4442efa7db87f769002d813dfb05b41823d53ca4c2d17ffb932a7cdf1"
+    },
+    {
+      "uploaded_path": "uplift_results/run_summary.json",
+      "repository_path": "results/uplift/run_summary.json",
+      "source_sha256": "925af02f4107273bb0a74aac3c6ec18574375b2270ff768fcc9899da65ae2361"
+    },
+    {
+      "uploaded_path": "uplift_results/test_qini_uplift_curves.png",
+      "repository_path": "results/uplift/test_qini_uplift_curves.png",
+      "source_sha256": "42f1d3aa6a2e4137da10f116116bdb29d315df94495bed1ec53af599cbeec09d"
+    },
+    {
+      "uploaded_path": "uplift_results/arm_0_classification_report.txt",
+      "repository_path": "results/uplift/arm_0_classification_report.txt",
+      "source_sha256": "7f0b35172b846edecd319cb2a4e922bbe56dd9c256ab5c1a7303bcde394f0b26"
+    },
+    {
+      "uploaded_path": "uplift_results/ranking_comparison.csv",
+      "repository_path": "results/uplift/ranking_comparison.csv",
+      "source_sha256": "cec7b72c3d868c67bebb371d45bf4d050478b2694598bb8866621ac7bb3ea3e7"
+    },
+    {
+      "uploaded_path": "uplift_results/lr_pooled_baseline.joblib",
+      "repository_path": "results/uplift/lr_pooled_baseline.joblib",
+      "source_sha256": "d98a70aea074cd5a8371e0c07d23b012b1e5898fed004de014a593450212287e"
+    },
+    {
+      "uploaded_path": "uplift_results/lr_additional_visit.joblib",
+      "repository_path": "results/uplift/lr_additional_visit.joblib",
+      "source_sha256": "741ae2a01f3525683216c9df4133fd68a8021b936b0b4417cfb54aabf48b108c"
+    },
+    {
+      "uploaded_path": "uplift_results/pooled_lr_prescribing_probability_qini_curve.csv",
+      "repository_path": "results/uplift/pooled_lr_prescribing_probability_qini_curve.csv",
+      "source_sha256": "a9afdc534d472552909dc31dadc3bd2351c6cd09bbc066ad2b5e4761230934d5"
+    },
+    {
+      "uploaded_path": "uplift_results/pooled_lr_prescribing_probability_uplift_curve.csv",
+      "repository_path": "results/uplift/pooled_lr_prescribing_probability_uplift_curve.csv",
+      "source_sha256": "1db5c2466928c18a64f0088292fef194c68ae1a518d43672547c9c07e6e6814c"
+    },
+    {
+      "uploaded_path": "uplift_results/arm_1_classification_report.txt",
+      "repository_path": "results/uplift/arm_1_classification_report.txt",
+      "source_sha256": "22b510e998f82213e8ec7a86af88f2ffdfd76cf1171f086cc40e76f3a68e5239"
+    },
+    {
+      "uploaded_path": "uplift_results/uplift_lr_qini_curve.csv",
+      "repository_path": "results/uplift/uplift_lr_qini_curve.csv",
+      "source_sha256": "db4de11c25b690e8545b8780d24b0bd16d70ed29b3a40ab696e5e2ecc394862a"
+    },
+    {
+      "uploaded_path": "uplift_results/test_uplift_ranking.csv",
+      "repository_path": "results/uplift/test_uplift_ranking.csv",
+      "source_sha256": "3fa32f3aeabd02594d2b510584b24d0c136f391f5a15d084794020444988018f"
+    },
+    {
+      "uploaded_path": "uplift_results/lr_control.joblib",
+      "repository_path": "results/uplift/lr_control.joblib",
+      "source_sha256": "f0eac2e980c331da59918b7a906e73d9a92d37ac48301c718268b14307836d87"
+    },
+    {
+      "uploaded_path": "hcp_reasons/reference_and_checks.json",
+      "repository_path": "results/reasons/reference_and_checks.json",
+      "source_sha256": "06612c7fe9c6178335c82d1a74dcac220c6add12e3fb2ce7970f255e180ddbf1"
+    },
+    {
+      "uploaded_path": "hcp_reasons/llm_grounded_prompts.jsonl",
+      "repository_path": "results/reasons/llm_grounded_prompts.jsonl",
+      "source_sha256": "b035411eb296e40b15b6ac47cebc2cc191757cecbd40162f859802e8061e99be"
+    },
+    {
+      "uploaded_path": "hcp_reasons/model_driver_audit.csv",
+      "repository_path": "results/reasons/model_driver_audit.csv",
+      "source_sha256": "4cd23b5c3ae603a2fec1e23e1b4cfaa06791d5c6ebf9b7523039614a7b216403"
+    },
+    {
+      "uploaded_path": "hcp_reasons/flagged_hcp_reasons.csv",
+      "repository_path": "results/reasons/flagged_hcp_reasons.csv",
+      "source_sha256": "9f8335497f61c41921133ea4a018daf229ac42332c7ffdf346810b0aee78ee5c"
+    },
+    {
+      "uploaded_path": "HCP_Ranking_Datasets/lr_ranked_hcp_universe.csv",
+      "repository_path": "results/ranking/lr_ranked_hcp_universe.csv",
+      "source_sha256": "ad723434155383a59c64732eabb6e0a9349a769a7421a0439f41770111b65f95"
+    },
+    {
+      "uploaded_path": "HCP_Ranking_Datasets/three_row_match_example.csv",
+      "repository_path": "results/ranking/three_row_match_example.csv",
+      "source_sha256": "f5f4d91b1e698afd1aaf06adf2111df643a255790df7fc2810d5873e39fa5b6e"
+    },
+    {
+      "uploaded_path": "HCP_Ranking_Datasets/summary.json",
+      "repository_path": "results/ranking/summary.json",
+      "source_sha256": "a9ec6122e82fa4347c6320f225ab950fbdd5ac2664c20b72582a7d4ba689ca6e"
+    },
+    {
+      "uploaded_path": "HCP_Ranking_Datasets/eligible_universe_ge3_visits.csv",
+      "repository_path": "results/ranking/eligible_universe_ge3_visits.csv",
+      "source_sha256": "b41475c755df25950e022b167fe87ae1b4b8113c759a99768a902a1dad667941"
+    },
+    {
+      "uploaded_path": "HCP_Ranking_Datasets/original_validation_subset_ge3_visits.csv",
+      "repository_path": "results/ranking/original_validation_subset_ge3_visits.csv",
+      "source_sha256": "523d66510993bcff59ec4017c8901719c1040c990a3ce01bec0b055d134e96a2"
+    },
+    {
+      "uploaded_path": "HCP_Ranking_Datasets/lr_top400_recommendations.csv",
+      "repository_path": "results/ranking/lr_top400_recommendations.csv",
+      "source_sha256": "6f8a6cdb2db1adb676bafee16863bc3fe6b74360ab5d9dfb970c4c69b8508ced"
+    },
+    {
+      "uploaded_path": "HCP_Ranking_Datasets/synthetic_rep_planned_list.csv",
+      "repository_path": "results/ranking/synthetic_rep_planned_list.csv",
+      "source_sha256": "cc88db9c7062f0860d6160cb78ff9ee4345e3e436d34308ee6fd4cf27237d306"
+    },
+    {
+      "uploaded_path": "HCP_Ranking_Datasets/test_subset_ge3_visits.csv",
+      "repository_path": "results/ranking/test_subset_ge3_visits.csv",
+      "source_sha256": "29fbdfd04401d0a75833291af16c805256f6ca0cb847391a9b6d82c6abc599fb"
+    },
+    {
+      "uploaded_path": "HCP_Ranking_Datasets/README.txt",
+      "repository_path": "results/ranking/README.txt",
+      "source_sha256": "7694cc6b2e99462006469afffe177b9857e6d3788aafe89fb6d92ac03857cfb0"
+    }
+  ],
+  "excluded": [
+    ".venv and __pycache__",
+    "local SQLite activity database",
+    "duplicate older downloaded package copies",
+    "Flask dashboard excluded from static submission as requested"
+  ],
+  "source_changes": [
+    "Only project-relative defaults adjusted for organised folders; modelling logic preserved."
+  ]
+}

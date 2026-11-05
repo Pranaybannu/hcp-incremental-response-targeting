@@ -1,0 +1,74 @@
+{
+  "seed": 42,
+  "features": [
+    "prescriptions_week_before_visit",
+    "calls_last_90d",
+    "visits_last_12m",
+    "category_prescriptions_before_90d",
+    "brand_prescriptions_before_90d",
+    "brand_prescriptions_previous_90d",
+    "days_since_previous_visit",
+    "samples_accepted_previous_visits",
+    "has_previous_visit",
+    "has_two_or_more_visits",
+    "territory_central",
+    "territory_east",
+    "territory_north",
+    "territory_south",
+    "territory_west",
+    "hcp_specialty_dermatology",
+    "hcp_specialty_primary_care",
+    "hcp_stage_never_accepted_a_sample",
+    "hcp_stage_testing_phase",
+    "hcp_stage_already_prescribing",
+    "days_since_most_recent_visit",
+    "brand_share_90d",
+    "brand_rx_change_90d"
+  ],
+  "feature_count": 23,
+  "split_ratio": "60% train / 20% validation / 20% test",
+  "stratification": "Joint prescribed_next_28d and visit_assigned; keys are target_treatment",
+  "splits": {
+    "train": {
+      "rows": 2400,
+      "prescribing_rate": 0.43375,
+      "visit_assignment_rate": 0.5070833333333333,
+      "joint_counts": {
+        "0_0": 763,
+        "0_1": 596,
+        "1_0": 420,
+        "1_1": 621
+      }
+    },
+    "validation": {
+      "rows": 800,
+      "prescribing_rate": 0.43375,
+      "visit_assignment_rate": 0.5075,
+      "joint_counts": {
+        "0_0": 254,
+        "0_1": 199,
+        "1_0": 140,
+        "1_1": 207
+      }
+    },
+    "test": {
+      "rows": 800,
+      "prescribing_rate": 0.4325,
+      "visit_assignment_rate": 0.5075,
+      "joint_counts": {
+        "0_0": 255,
+        "0_1": 199,
+        "1_0": 139,
+        "1_1": 207
+      }
+    }
+  },
+  "leakage_checks": {
+    "disjoint_hcp_sets": true,
+    "target_excluded_from_X": true,
+    "treatment_excluded_from_X": true,
+    "all_features_historical": true,
+    "no_learned_preprocessing": true
+  },
+  "limitation": "One common synthetic cutoff. Random stratification is not a forward temporal backtest."
+}

@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+xgboost
+scikit-uplift==0.5.1
+matplotlib
+joblib

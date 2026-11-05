@@ -1,76 +1,97 @@
 # HCP incremental response targeting
 
-[Open the hosted demonstration](https://pranay-hcp-call-opportunities.paireddelta3.chatgpt.site)
+Reproducible specialty-pharma case study by **Sambodhu Pranay Raj**. The goal is to move from predicting which HCPs will prescribe to estimating where an additional rep visit may change prescribing.
 
-Submission report and full Markdown source collateral are in `docs/`. All HCP records are synthetic.
+## Start here
 
-# HCP targeting — incremental-response prototype
+- **[Detailed Word report](reports/HCP_Targeting_Solution_Report.docx)** — solution, assumptions, methods, synthetic data, results, explanations, limitations and next steps.
+- **[Interactive dashboard source](docs/index.html)** — download the repository and open this file, or enable GitHub Pages as described below.
+- **[Uplift results](results/uplift/ranking_comparison.csv)** and **[predictive results](results/refit/test_comparison.csv)**.
+- **[Upload provenance](reports/upload_manifest.json)** — retained source files, original checksums and excluded duplicates/environment files.
 
-## Run
+All HCP records and business results are synthetic. The dashboard uses precomputed predictions and works without Python. Existing reasons are grounded templates; the required live LLM rewriting stage is not yet implemented. The restricted-training comparison from the original brief is also pending. These limitations are described in the report.
 
-Python 3.10+. From the repository root, first run `cd hcp_targeting`, then:
+## Folder structure
 
-```bash
+| Folder | Contents |
+|---|---|
+| `scripts/` | Generator, preprocessing, feature split, classifiers, refit, ranking, uplift and reasons |
+| `data/raw/` | Uploaded synthetic universe, visit history, summary and separately labelled simulation truth |
+| `data/processed/` | Fixed-rule imputation and categorical encoding outputs |
+| `data/splits/` | Engineered rows and aligned train/validation/test X, y, treatment and ID files |
+| `results/classification/` | Limited-grid validation results and selected per-model artifacts |
+| `results/refit/` | Final LR and random forest test metrics, reports and model files |
+| `results/uplift/` | Two LR models, test uplift metrics, rankings, curves and uncertainty |
+| `results/ranking/` | Probability rankings, >=3 visit subsets and synthetic rep plan |
+| `results/reasons/` | Grounded reasons, model-driver audit and LLM prompt records |
+| `reports/` | Detailed Word report, figures, upload manifest and rollout guidance |
+| `docs/` | Standalone GitHub Pages dashboard and bundled synthetic records |
+
+## Run in VS Code
+
+Open this repository folder in VS Code. Run commands from the repository root, not from scripts/.
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-python run.py
-python verify.py
 ```
 
-Open `outputs/rep_view.html` directly in a browser. It is self-contained, needs no web server, and supports territory/access filters, evidence audits, filtered CSV export, and local rep feedback.
+To reproduce the complete analytical workflow:
 
-## Submitted artifacts
+```powershell
+python .\scripts\generate_hcp_data.py
+python .\scripts\preprocess_hcp.py
+python .\scripts\feature_engineering_split.py
+python .\scripts\train_classifiers.py
+python .\scripts\refit_lr_rfc.py
+python .\scripts\build_ranking_datasets.py
+python .\scripts\train_uplift_lr.py
+python .\scripts\explain_hcp.py
+```
 
-- `generate_data.py` generates exactly 4,000 synthetic HCPs.
-- `run.py` reconstructs a predictive baseline, adds an all-universe predictive diagnostic, trains a two-model uplift learner, and evaluates held-out results.
-- `outputs/hcp_data.csv` contains pre-decision features, randomized synthetic visit assignment, four-week outcome, and HCP-disjoint split.
-- `outputs/simulation_truth.csv` holds oracle potential-outcome probabilities. These NEVER enter training or feature selection.
-- `outputs/validation_universe.csv`, `list_overlap.csv`, `metrics.json`, and `uplift_curve.png` document results.
-- `outputs/ranked_list.csv`, `ranked_list.json`, and `reason_audit.json` support the 400-person call list.
-- `reason_templates.json` records the LLM prompt and ChatGPT-authored factual language templates.
-- `llm_reasons.py` optionally calls an LLM for each HCP in batches and validates exact approved factual sentences. It uses `OPENAI_API_KEY` and an explicitly set `OPENAI_MODEL`. It was not API-executed in this submission. Do not put a secret in a file or browser HTML.
-- `verify.py` independently checks each selected reason fact against the raw HCP record and rejects a fabricated claim for every HCP.
-- `DECISIONS.md` contains the diagnosis, assumptions, metrics and rollout proposal.
+Each script has project-relative defaults for the folder structure above. Use `--help` for overrides. Keep X, y, treatment and ID rows aligned. Simulation truth, IDs, free text, future outcomes and visit assignment are excluded from predictive feature inputs.
 
-## What this demonstrates
+**Model compatibility:** uploaded joblib artifacts were created with scikit-learn 1.9.1. Loading them in another version can fail. The safe portable route is to regenerate models with the commands above, including `train_classifiers.py` before refitting. Do not load untrusted joblib files. The static dashboard never deserializes models.
 
-The case's AUC of 0.86 and top-decile response of 71% are supplied client exhibit metrics. They are not fabricated as reproduced results. This simulation's fitted results are reported separately. Outcome definition is assumed to be at least one new prescription within four weeks, because the exhibit does not specify it. Clarify whether “71% showed the predicted score” actually means top-decile outcome rate; a probability score is not itself an outcome.
+The five-classifier grid automatically names gradient boosting as its highest validation-AUC model. Final LR use is an explicit simplicity choice; `refit_lr_rfc.py` deliberately refits LR and random forest regardless of the grid's automatic winner. No test tuning is performed by the uplift script.
 
-The exhibit states only the validation population has 3+ prior visits. This prototype ALSO restricts baseline training to that population as an explicit reconstruction assumption. We cannot know the client's actual algorithm, training population, target, leakage, or feature list from the exhibit. The broad predictive model is included to show why broader coverage alone does not change the objective from response to incrementality.
+## Main results
 
-No real patient, HCP identifier, or CMS record is used. Synthetic IDs are not NPIs. Lognormal prescribing counts and specialty mix are illustrative assumptions; the simulation is schema-informed, not empirically calibrated to CMS. Do not claim CMS proves these distributions or visit effects.
+| Synthetic test metric | Uplift LR ranking | Unweighted pooled LR probability ranking |
+|---|---:|---:|
+| Normalised Qini AUC | 0.0389 | -0.0199 |
+| Normalised uplift AUC | 0.0491 | -0.0285 |
+| Observed uplift among top 20% | 28.75 percentage points | 5.25 percentage points |
 
-## Causal assumptions and limits
+The top-20% uplift interval is approximately 11.79–43.39 percentage points, from 500 bootstrap samples holding fitted models fixed. The test set was previously inspected; this is exploratory synthetic evidence.
 
-Treatment means one rep visit at the decision point. Historical visit counts are pre-decision covariates. Current treatment is randomized 50/50 in the synthetic generator. The outcome is collected after four weeks. This randomized assignment is an experiment assumption, not the client's actual rep behavior. Actual observational logs require measured confounders, overlap diagnostics, propensity estimation and a justified doubly robust / causal approach; missing confounders can still invalidate causality. Recommend a randomized client pilot before any causal business claim.
+The dashboard's current list uses the earlier **balanced** LR classifier, a different baseline from the unweighted pooled LR in the table. Its top 400 and the uplift top 400 share 7 HCPs. Synthetic rep-plan overlap is 211/400 for the current list and 5/400 for uplift. These constructed comparisons establish list differences, not real business impact.
 
-The generator deliberately contains accessible, less-visited incremental responders and saturated high-propensity prescribers. This demonstrates the requested mechanism. Oracle effects are valid only within the designed simulation and do not establish real commercial lift. The supplied brand launched nine months ago; the 12-month calls are general rep activity, and the 90-day brand history is post-launch. Current weekly refresh is a rescoring schedule, not evidence that outcome labels mature weekly.
+![Uplift metrics](reports/figures/topk_results.png)
 
-Train/validation/test split is 60/20/20 by HCP, one record each. All preprocessing references use training rows. Test outcomes are not used for fitting or tuning. This is a cross-sectional reconstruction, not a temporal backtest. For production, implement as-of snapshots and forward, HCP/territory-aware evaluation with delayed labels. Validation is reserved and unused for tuning here.
+## GitHub Pages
 
-## Reproducible result and honest interpretation (seed 42)
+This submission uses a static website, separate from the earlier local dashboard.
 
-Current restricted model test AUC is 0.776 in familiar HCPs versus 0.593 in 0–2 visit HCPs. Its held-out top-decile list has 95% familiar HCPs and 70% visited in the previous 30 days. This is familiarity overlap, not measured overlap with an actual future rep plan, which has not been provided.
+1. Open repository **Settings → Pages**.
+2. Choose **Deploy from a branch**, then **main** and **/docs**.
+3. Save and use the exact website URL GitHub displays after deployment.
 
-At equal top-decile capacity (80 held-out HCPs), observed treated-minus-control response difference is 5.6 percentage points for predictive targeting versus 13.3 for uplift. Arm counts are small. Unnormalized propensity-weighted Qini area is 0.00144 for current targeting versus -0.00049 for uplift. The paired bootstrap 95% interval for the Qini difference is about [-0.0617, 0.0539]. These observations do NOT establish overall uplift-ranking superiority. Known simulated mean effects are 2.1 pp versus 29.4 pp in the respective top deciles. Oracle diagnostics support the synthetic mechanism; they do not repair uncertainty in observed outcomes. Keep these conclusions separate.
+Opening the repository shows code. Opening the Pages URL shows the dashboard. A website URL is not claimed until GitHub confirms deployment. To preview locally:
 
-Qini definition in this code: sort by score; accumulate the inverse-propensity transformed outcome `Y*(T/0.5 - (1-T)/0.5)`; divide cumulative totals by N; integrate the difference from the straight random-ranking line. It is an unnormalized Horvitz–Thompson cumulative gain area. Do not compare its scale with normalized library Qini coefficients. The bootstrap fixes the fitted models, resamples held-out HCPs, and re-ranks each resample. It omits model-fit uncertainty.
+```powershell
+python -m http.server 8000 --directory docs
+```
 
-## LLM and evidence grounding
+Open http://localhost:8000. The dashboard supports territory/stage filters, model comparisons, profiles, grounded reasons, separate rep reviews and a display-only Tier 1 filter. Browser actions are saved only in localStorage and can be exported as CSV; they are not shared adoption tracking.
 
-This ChatGPT conversation authored the feature-specific templates. Each flagged HCP's two largest absolute model sensitivity drivers are converted into literal source facts using those templates. This is a constrained LLM-assisted renderer, not a claim of 400 separate generation calls. Optional live per-HCP calls can order approved sentences, but cannot invent wording or facts. API failures or invalid responses keep the already verified reason. The optional path is deliberately restrictive so every displayed claim is auditable. `llm_call_audit.json` appears only if it is run. Default reason quality has been checked locally; API/network behavior has not been verified.
+## Explanation and rollout status
 
-Local sensitivity replaces one feature with its training-set median and recomputes predicted uplift. It can be positive or negative; both signs are retained in the audit. It is model sensitivity, not SHAP, a clinical mechanism, or proof that changing that feature changes response. Median replacement can produce unrealistic feature combinations; validate explanations with users. Action text is a proposed review, not guaranteed clinical or commercial benefit.
+`explain_hcp.py` creates deterministic short reasons backed by each synthetic HCP's recorded facts and paired-LR model contributions. It exports one grounded LLM prompt per flagged HCP; no LLM service call occurs. Model contributions are reference dependent and are not causal feature effects.
 
-## Public reference sources
+Measure rep adoption separately from impact. For rollout, randomise comparable reps/territories to old versus new lists with equal visit capacity, measure 28-day outcomes and report uncertainty. See [rollout plan](reports/ROLLOUT_PLAN.md) and the Word report.
 
-- CMS Part D by Provider landing page: https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-provider
-- CMS data dictionary: https://data.cms.gov/sites/default/files/2025-04/MUP_DPR_RY25_20250401_DD_PRV_508.pdf
-- CMS methodology: https://data.cms.gov/sites/default/files/2026-05/MUP_DPR_RY26_20260421_Methodology_508.pdf
-- Qini reference: https://www.uplift-modeling.com/en/stable/api/metrics/qini_auc_score.html
-- Structured output reference: https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=chat
+## Source management
 
-CMS supplies prescribing counts and specialty fields for Medicare Part D, not rep visits, access, brand-new-launch four-week effects, or the entire dermatology market. Small-count suppression and payer/population coverage constrain calibration. A future extension should sample specialty-specific actual volume quantiles, document year/filtering/suppression, and avoid transferring Medicare patterns uncritically.
-
-## Verification status
-
-The full Python pipeline ran successfully, Python files compile, JavaScript passes `node --check`, and all 400 reasons passed source-data checks plus fabricated-claim rejection. A browser launch was attempted but this environment lacks the Chromium executable, so visual layout and live browser interactions have not been verified here. The optional live LLM API path also remains unexecuted.
+The fresh upload replaces the superseded prototype on main. Its prior version is retained on branch `backup-before-fresh-submission-20261105`. The uploaded Python environment, caches, local activity database and duplicate older downloaded packages are excluded. Modelling scripts are preserved with only project-relative path defaults adapted to the organised layout. Uploaded results remain canonical; verification outputs are kept separate.

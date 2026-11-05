@@ -1,0 +1,4 @@
+hcp_id,model_rank,predicted_prescribing_probability,visits_last_12m,calls_last_90d,brand_prescriptions_before_90d,on_synthetic_rep_plan,split
+HCP0227,2,0.9999986501689155,8,1,529,True,train
+HCP3352,1,0.9999999603920215,9,1,716,False,train
+HCP2836,4000,0.05433730259508626,1,0,0,False,test

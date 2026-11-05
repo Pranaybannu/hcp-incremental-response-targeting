@@ -1,0 +1,22 @@
+{
+  "rows": 4000,
+  "columns": 19,
+  "seed": 42,
+  "cutoff": "2026-11-01",
+  "stage_counts": {
+    "Already prescribing": 2830,
+    "Never accepted a sample": 765,
+    "Testing phase": 405
+  },
+  "visit_assigned_counts": {
+    "1": 2029,
+    "0": 1971
+  },
+  "target_counts": {
+    "0": 2266,
+    "1": 1734
+  },
+  "zero_previous_visits": 1170,
+  "three_or_more_previous_visits": 1028,
+  "historical_visit_rows": 8057
+}

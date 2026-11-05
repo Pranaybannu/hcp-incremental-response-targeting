@@ -1,0 +1,33 @@
+{
+  "reference_features": {
+    "prescriptions_week_before_visit": 0.0,
+    "calls_last_90d": 0.0,
+    "visits_last_12m": 1.0,
+    "category_prescriptions_before_90d": 95.0,
+    "brand_prescriptions_before_90d": 9.0,
+    "brand_prescriptions_previous_90d": 14.0,
+    "days_since_previous_visit": 0.0,
+    "samples_accepted_previous_visits": 0.0,
+    "has_previous_visit": 1.0,
+    "has_two_or_more_visits": 0.0,
+    "territory_central": 0.0,
+    "territory_east": 0.0,
+    "territory_north": 1.0,
+    "territory_south": 0.0,
+    "territory_west": 0.0,
+    "hcp_specialty_dermatology": 0.0,
+    "hcp_specialty_primary_care": 1.0,
+    "hcp_stage_never_accepted_a_sample": 0.0,
+    "hcp_stage_testing_phase": 0.0,
+    "hcp_stage_already_prescribing": 1.0,
+    "days_since_most_recent_visit": 90.0,
+    "brand_share_90d": 0.0947368421052631,
+    "brand_rx_change_90d": -5.0
+  },
+  "reference_uplift": 0.09613675808445704,
+  "attribution": "Exact straight-path integrated gradients, grouped, relative to one training reference HCP",
+  "all_attributions_reconstruct_uplift": true,
+  "rows": 400,
+  "llm_called": false,
+  "limitations": "Synthetic data. Explanation depends on reference and correlated features. Feature attribution is not causal evidence. All-universe scoring includes training rows, not evaluation."
+}

@@ -1,0 +1,8 @@
+                        precision    recall  f1-score   support
+
+Will not prescribe (0)     0.7884    0.8720    0.8281       453
+    Will prescribe (1)     0.8060    0.6945    0.7461       347
+
+              accuracy                         0.7950       800
+             macro avg     0.7972    0.7832    0.7871       800
+          weighted avg     0.7961    0.7950    0.7925       800

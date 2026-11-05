@@ -1,0 +1,1201 @@
+hcp_id,feature,actual_fact,contribution_pp,direction
+HCP2331,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 20,15.182855341949471,raises estimate vs reference
+HCP2331,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 48,10.226640284285146,raises estimate vs reference
+HCP2331,territory,Territory: West,7.8260956687325525,raises estimate vs reference
+HCP1555,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 43,10.098994563516408,raises estimate vs reference
+HCP1555,territory,Territory: West,8.242966834752515,raises estimate vs reference
+HCP1555,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,7.814052270280368,raises estimate vs reference
+HCP3542,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 16,13.622199857500657,raises estimate vs reference
+HCP3542,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 40,9.13382596078289,raises estimate vs reference
+HCP3542,territory,Territory: West,8.22307983687717,raises estimate vs reference
+HCP3803,territory,Territory: West,8.369794243891958,raises estimate vs reference
+HCP3803,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 35,8.054844047481696,raises estimate vs reference
+HCP3803,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,5.991471504739981,raises estimate vs reference
+HCP0056,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 58,11.534010094486417,raises estimate vs reference
+HCP0056,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,10.287584309431999,raises estimate vs reference
+HCP0056,territory,Territory: South,9.670961998784172,raises estimate vs reference
+HCP0363,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 16,13.118202003913149,raises estimate vs reference
+HCP0363,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 55,12.623888871195685,raises estimate vs reference
+HCP0363,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 463,-7.560250948459898,lowers estimate vs reference
+HCP0070,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,11.987037909790425,raises estimate vs reference
+HCP0070,territory,Territory: West,8.388102036490526,raises estimate vs reference
+HCP0070,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 34,7.7063536508415185,raises estimate vs reference
+HCP3963,territory,Territory: West,8.430105403966696,raises estimate vs reference
+HCP3963,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.047974780600992,raises estimate vs reference
+HCP3963,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 28,5.933755878390816,raises estimate vs reference
+HCP2465,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 26,17.287298045392706,raises estimate vs reference
+HCP2465,brand_share_90d,Client-brand share of category prescriptions: 24.4%,-11.969514678983561,lowers estimate vs reference
+HCP2465,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 52,9.67756726372461,raises estimate vs reference
+HCP0533,territory,Territory: South,11.305036462122482,raises estimate vs reference
+HCP0533,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,9.93760212128061,raises estimate vs reference
+HCP0533,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 31,6.6926511004797655,raises estimate vs reference
+HCP0708,territory,Territory: South,10.72731949531284,raises estimate vs reference
+HCP0708,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,8.19856413202629,raises estimate vs reference
+HCP0708,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 34,6.956049019344553,raises estimate vs reference
+HCP2244,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 525,-11.93168875139163,lowers estimate vs reference
+HCP2244,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 62,10.911640768288459,raises estimate vs reference
+HCP2244,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,9.544780748483621,raises estimate vs reference
+HCP0794,territory,Territory: South,10.513128037517397,raises estimate vs reference
+HCP0794,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 46,9.958866973865135,raises estimate vs reference
+HCP0794,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 48,7.838138953485162,raises estimate vs reference
+HCP1257,hcp_stage,Recorded stage: Never accepted a sample,15.619940656135324,raises estimate vs reference
+HCP1257,territory,Territory: South,11.639414133509993,raises estimate vs reference
+HCP1257,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.5014153634393,lowers estimate vs reference
+HCP0807,territory,Territory: South,11.853457958621352,raises estimate vs reference
+HCP0807,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,11.061680840141044,raises estimate vs reference
+HCP0807,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 19,3.3605313481340353,raises estimate vs reference
+HCP3260,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 14,11.681789357408068,raises estimate vs reference
+HCP3260,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 44,9.30727332977315,raises estimate vs reference
+HCP3260,territory,Territory: West,7.918709254818869,raises estimate vs reference
+HCP1742,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 15,13.641057094182752,raises estimate vs reference
+HCP1742,territory,Territory: West,8.532489974991892,raises estimate vs reference
+HCP1742,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.795444321457603,raises estimate vs reference
+HCP3310,territory,Territory: West,8.121699613225983,raises estimate vs reference
+HCP3310,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 37,7.871384805878094,raises estimate vs reference
+HCP3310,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.08176040616045,raises estimate vs reference
+HCP1735,territory,Territory: South,11.850517873236386,raises estimate vs reference
+HCP1735,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,10.37203874431323,raises estimate vs reference
+HCP1735,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 22,4.348327000394261,raises estimate vs reference
+HCP3430,territory,Territory: South,11.141769269108776,raises estimate vs reference
+HCP3430,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 544,-8.194247896815288,lowers estimate vs reference
+HCP3430,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 35,7.688966709131284,raises estimate vs reference
+HCP3361,territory,Territory: South,10.301047283892158,raises estimate vs reference
+HCP3361,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 48,10.13982053751562,raises estimate vs reference
+HCP3361,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,7.890781885931834,raises estimate vs reference
+HCP2301,territory,Territory: South,11.151226964355374,raises estimate vs reference
+HCP2301,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 35,7.695172190521113,raises estimate vs reference
+HCP2301,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,5.888553596399795,raises estimate vs reference
+HCP1760,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,10.135100008022572,raises estimate vs reference
+HCP1760,territory,Territory: West,8.106546074520548,raises estimate vs reference
+HCP1760,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 37,7.826723872268788,raises estimate vs reference
+HCP1079,territory,Territory: South,10.483618570545733,raises estimate vs reference
+HCP1079,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 37,7.485737210337281,raises estimate vs reference
+HCP1079,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,6.17212509076148,raises estimate vs reference
+HCP2355,hcp_stage,Recorded stage: Never accepted a sample,21.02916130501592,raises estimate vs reference
+HCP2355,territory,Territory: West,8.406465099471685,raises estimate vs reference
+HCP2355,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 1202,-5.534918820753071,lowers estimate vs reference
+HCP2924,territory,Territory: South,11.619329940889584,raises estimate vs reference
+HCP2924,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 28,6.051035853517125,raises estimate vs reference
+HCP2924,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 1,4.078840649834225,raises estimate vs reference
+HCP3391,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,10.582044842292671,raises estimate vs reference
+HCP3391,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 38,8.744564885681957,raises estimate vs reference
+HCP3391,territory,Territory: East,5.208424709835315,raises estimate vs reference
+HCP0434,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 45,10.216524320720362,raises estimate vs reference
+HCP0434,territory,Territory: West,8.16547690771165,raises estimate vs reference
+HCP0434,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 45,7.581591068320928,raises estimate vs reference
+HCP1593,brand_share_90d,Client-brand share of category prescriptions: 27.3%,-13.325334909367948,lowers estimate vs reference
+HCP1593,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 17,13.076883955613427,raises estimate vs reference
+HCP1593,territory,Territory: South,10.075883785036288,raises estimate vs reference
+HCP0697,territory,Territory: South,11.880856551413679,raises estimate vs reference
+HCP0697,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 12,11.784351273199235,raises estimate vs reference
+HCP0697,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 19,3.355629068099257,raises estimate vs reference
+HCP3811,territory,Territory: South,11.729373160117,raises estimate vs reference
+HCP3811,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.543229928679238,raises estimate vs reference
+HCP3811,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 24,4.861066907038149,raises estimate vs reference
+HCP3010,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,10.807005576832045,raises estimate vs reference
+HCP3010,territory,Territory: South,10.182346281119356,raises estimate vs reference
+HCP3010,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 39,7.647628234225598,raises estimate vs reference
+HCP0205,territory,Territory: South,11.555476903175737,raises estimate vs reference
+HCP0205,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,10.147667252105554,raises estimate vs reference
+HCP0205,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.6599227914367525,raises estimate vs reference
+HCP1399,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 43,9.081845540312488,raises estimate vs reference
+HCP1399,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,8.64275707977466,raises estimate vs reference
+HCP1399,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 337,-5.2907176399333515,lowers estimate vs reference
+HCP2709,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.335822266916036,raises estimate vs reference
+HCP2709,territory,Territory: West,8.428850005188728,raises estimate vs reference
+HCP2709,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 28,5.804858631706441,raises estimate vs reference
+HCP3303,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 40,9.327318872177555,raises estimate vs reference
+HCP3303,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 38,6.268168112427655,raises estimate vs reference
+HCP3303,territory,Territory: East,5.192070977898931,raises estimate vs reference
+HCP1261,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 50,11.123702409125679,raises estimate vs reference
+HCP1261,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 54,9.297610072713361,raises estimate vs reference
+HCP1261,territory,Territory: West,8.008801358967995,raises estimate vs reference
+HCP3148,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 57,10.111584591054923,raises estimate vs reference
+HCP3148,territory,Territory: South,9.055708447794613,raises estimate vs reference
+HCP3148,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,7.518719034624858,raises estimate vs reference
+HCP2601,territory,Territory: South,11.362620465553066,raises estimate vs reference
+HCP2601,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,8.658873621463718,raises estimate vs reference
+HCP2601,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 34,7.61990844729313,raises estimate vs reference
+HCP0507,territory,Territory: West,8.453158173416314,raises estimate vs reference
+HCP0507,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 35,7.996979248503703,raises estimate vs reference
+HCP0507,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.355336071492875,raises estimate vs reference
+HCP0067,brand_share_90d,Client-brand share of category prescriptions: 23.4%,-9.839423546353286,lowers estimate vs reference
+HCP0067,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 45,9.747697196033638,raises estimate vs reference
+HCP0067,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,9.33752409980273,raises estimate vs reference
+HCP0207,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 12,11.549537123222688,raises estimate vs reference
+HCP0207,territory,Territory: West,8.536819069537193,raises estimate vs reference
+HCP0207,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 32,7.2834859845903575,raises estimate vs reference
+HCP2220,territory,Territory: South,11.928757077214769,raises estimate vs reference
+HCP2220,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,10.434454308834326,raises estimate vs reference
+HCP2220,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 17,2.710345898903588,raises estimate vs reference
+HCP1780,territory,Territory: South,10.861684824688963,raises estimate vs reference
+HCP1780,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 42,9.325208597239975,raises estimate vs reference
+HCP1780,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 48,8.272680360217594,raises estimate vs reference
+HCP1283,hcp_stage,Recorded stage: Never accepted a sample,11.516668721324633,raises estimate vs reference
+HCP1283,territory,Territory: South,11.25384891822543,raises estimate vs reference
+HCP1283,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.505285686420455,lowers estimate vs reference
+HCP0035,brand_share_90d,Client-brand share of category prescriptions: 26.8%,-11.39050316096679,lowers estimate vs reference
+HCP0035,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 40,8.989868601634724,raises estimate vs reference
+HCP0035,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,8.426871091022301,raises estimate vs reference
+HCP1041,territory,Territory: South,11.917019227870664,raises estimate vs reference
+HCP1041,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 22,4.372240180849461,raises estimate vs reference
+HCP1041,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 1,4.172140744225288,raises estimate vs reference
+HCP3150,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 12,11.7788569182249,raises estimate vs reference
+HCP3150,territory,Territory: West,8.625115864233374,raises estimate vs reference
+HCP3150,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 24,4.974788729231809,raises estimate vs reference
+HCP1500,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,9.751927064502269,raises estimate vs reference
+HCP1500,territory,Territory: West,8.278346761116854,raises estimate vs reference
+HCP1500,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 33,6.9925029002453485,raises estimate vs reference
+HCP0436,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,9.050403478723991,raises estimate vs reference
+HCP0436,territory,Territory: West,8.621215547275309,raises estimate vs reference
+HCP0436,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 21,4.056796176446031,raises estimate vs reference
+HCP0186,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 14,11.445678787719425,raises estimate vs reference
+HCP0186,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 46,9.4769017904995,raises estimate vs reference
+HCP0186,brand_share_90d,Client-brand share of category prescriptions: 21.2%,-8.665943260640049,lowers estimate vs reference
+HCP3432,territory,Territory: South,11.629289777502594,raises estimate vs reference
+HCP3432,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 29,6.344464326504936,raises estimate vs reference
+HCP3432,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 30,4.436149550468408,raises estimate vs reference
+HCP1812,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.717269953824491,raises estimate vs reference
+HCP1812,territory,Territory: East,5.882048417632867,raises estimate vs reference
+HCP1812,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 22,4.329889951841144,raises estimate vs reference
+HCP3433,territory,Territory: West,8.564429270880108,raises estimate vs reference
+HCP3433,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.455664531082405,raises estimate vs reference
+HCP3433,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.781941543932789,raises estimate vs reference
+HCP0407,territory,Territory: South,11.78745996100396,raises estimate vs reference
+HCP0407,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.512902969171331,raises estimate vs reference
+HCP0407,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.029513387114543,raises estimate vs reference
+HCP3192,territory,Territory: West,8.509149123644457,raises estimate vs reference
+HCP3192,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 31,6.852234004667782,raises estimate vs reference
+HCP3192,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 39,6.786934165920242,raises estimate vs reference
+HCP1435,territory,Territory: South,11.481742460767602,raises estimate vs reference
+HCP1435,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,8.745847148634244,raises estimate vs reference
+HCP1435,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 26,5.26167910415485,raises estimate vs reference
+HCP1968,territory,Territory: South,11.146515355053472,raises estimate vs reference
+HCP1968,hcp_stage,Recorded stage: Never accepted a sample,10.727092190299633,raises estimate vs reference
+HCP1968,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.491316194273843,lowers estimate vs reference
+HCP0950,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,11.144319103958528,raises estimate vs reference
+HCP0950,territory,Territory: West,8.639126722697311,raises estimate vs reference
+HCP0950,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 435,-3.8062386090470746,lowers estimate vs reference
+HCP0001,brand_share_90d,Client-brand share of category prescriptions: 22.4%,-10.02654491136759,lowers estimate vs reference
+HCP0001,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 49,9.512129794810217,raises estimate vs reference
+HCP0001,territory,Territory: West,7.5291230569722085,raises estimate vs reference
+HCP3481,territory,Territory: South,11.953129573827812,raises estimate vs reference
+HCP3481,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,10.457952733695265,raises estimate vs reference
+HCP3481,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 5,-2.6950571202888325,lowers estimate vs reference
+HCP2227,hcp_stage,Recorded stage: Never accepted a sample,11.96499665473322,raises estimate vs reference
+HCP2227,territory,Territory: South,11.232566205522136,raises estimate vs reference
+HCP2227,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.476709263968148,lowers estimate vs reference
+HCP3333,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 14,11.780437826409068,raises estimate vs reference
+HCP3333,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 46,9.93805509754568,raises estimate vs reference
+HCP3333,brand_share_90d,Client-brand share of category prescriptions: 15.8%,-4.474104374492692,lowers estimate vs reference
+HCP3480,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.260501371941102,raises estimate vs reference
+HCP3480,territory,Territory: East,5.6851658590098175,raises estimate vs reference
+HCP3480,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.9717259260653135,raises estimate vs reference
+HCP1337,territory,Territory: West,8.603544926310706,raises estimate vs reference
+HCP1337,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 31,7.089124751699856,raises estimate vs reference
+HCP1337,brand_share_90d,Client-brand share of category prescriptions: 18.5%,-4.91231922587847,lowers estimate vs reference
+HCP3052,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.2400976471984135,raises estimate vs reference
+HCP3052,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 31,6.538589863057448,raises estimate vs reference
+HCP3052,territory,Territory: East,5.1113508148818045,raises estimate vs reference
+HCP3200,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 68,11.10958511711804,raises estimate vs reference
+HCP3200,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 417,-9.38524771710415,lowers estimate vs reference
+HCP3200,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 72,8.882972242534121,raises estimate vs reference
+HCP3216,territory,Territory: South,11.426459572767156,raises estimate vs reference
+HCP3216,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.037310444650691,raises estimate vs reference
+HCP3216,brand_share_90d,Client-brand share of category prescriptions: 20.7%,-6.850407219706691,lowers estimate vs reference
+HCP1580,territory,Territory: South,11.836983964999375,raises estimate vs reference
+HCP1580,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 23,4.596638605518805,raises estimate vs reference
+HCP1580,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 24,2.8842506572279087,raises estimate vs reference
+HCP1811,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,11.294541981071003,raises estimate vs reference
+HCP1811,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 45,9.862639093223414,raises estimate vs reference
+HCP1811,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 352,-5.469797534040426,lowers estimate vs reference
+HCP2669,territory,Territory: South,11.646770828342099,raises estimate vs reference
+HCP2669,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,6.817656037189524,raises estimate vs reference
+HCP2669,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.737666144172492,raises estimate vs reference
+HCP1995,hcp_stage,Recorded stage: Never accepted a sample,15.965804739734335,raises estimate vs reference
+HCP1995,territory,Territory: West,8.015436664162818,raises estimate vs reference
+HCP1995,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.437842503305329,lowers estimate vs reference
+HCP0334,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 18,13.034114919209502,raises estimate vs reference
+HCP0334,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 48,9.017336866626497,raises estimate vs reference
+HCP0334,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 381,-7.263015789775121,lowers estimate vs reference
+HCP1675,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 52,11.21649777730215,raises estimate vs reference
+HCP1675,brand_share_90d,Client-brand share of category prescriptions: 20.6%,-8.147755424660469,lowers estimate vs reference
+HCP1675,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 48,7.558753974593316,raises estimate vs reference
+HCP2560,brand_share_90d,Client-brand share of category prescriptions: 26.6%,-15.843993761489813,lowers estimate vs reference
+HCP2560,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 86,12.198843006911385,raises estimate vs reference
+HCP2560,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 21,11.952828568282008,raises estimate vs reference
+HCP0763,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 39,8.26323621180269,raises estimate vs reference
+HCP0763,territory,Territory: West,8.078906087373063,raises estimate vs reference
+HCP0763,brand_share_90d,Client-brand share of category prescriptions: 18.5%,-6.280196063068846,lowers estimate vs reference
+HCP1966,territory,Territory: South,11.311336306367,raises estimate vs reference
+HCP1966,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 26,5.122639180433433,raises estimate vs reference
+HCP1966,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.249111382694096,raises estimate vs reference
+HCP2305,territory,Territory: South,11.255045387942342,raises estimate vs reference
+HCP2305,hcp_stage,Recorded stage: Testing phase,7.110519565149152,raises estimate vs reference
+HCP2305,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",6.844188676278917,raises estimate vs reference
+HCP1550,hcp_stage,Recorded stage: Never accepted a sample,15.753517447500808,raises estimate vs reference
+HCP1550,territory,Territory: West,7.994962440017894,raises estimate vs reference
+HCP1550,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.437772390815214,lowers estimate vs reference
+HCP0317,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,11.025682788864005,raises estimate vs reference
+HCP0317,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 35,8.442872272371984,raises estimate vs reference
+HCP0317,days_since_most_recent_visit,Days since the most recent visit: 312,2.8750819236707663,raises estimate vs reference
+HCP2050,brand_share_90d,Client-brand share of category prescriptions: 28.9%,-15.256761210662528,lowers estimate vs reference
+HCP2050,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 50,9.57564395004886,raises estimate vs reference
+HCP2050,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,7.981161588681274,raises estimate vs reference
+HCP3320,territory,Territory: West,8.45882873194817,raises estimate vs reference
+HCP3320,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 35,7.940900939847471,raises estimate vs reference
+HCP3320,brand_share_90d,Client-brand share of category prescriptions: 18.9%,-5.807403125799842,lowers estimate vs reference
+HCP1884,territory,Territory: South,11.827460485722458,raises estimate vs reference
+HCP1884,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.222487902673696,raises estimate vs reference
+HCP1884,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.063437796382968,raises estimate vs reference
+HCP2242,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,12.030668721922025,raises estimate vs reference
+HCP2242,territory,Territory: South,11.3999505068454,raises estimate vs reference
+HCP2242,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 28,5.798810168785582,raises estimate vs reference
+HCP3467,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,10.472497394472144,raises estimate vs reference
+HCP3467,territory,Territory: West,8.632225811295111,raises estimate vs reference
+HCP3467,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 18,3.0642901077534503,raises estimate vs reference
+HCP2269,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,10.408781745904774,raises estimate vs reference
+HCP2269,territory,Territory: West,8.655002842626807,raises estimate vs reference
+HCP2269,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.171692999275952,raises estimate vs reference
+HCP1829,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 20,15.417035768543883,raises estimate vs reference
+HCP1829,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 47,10.110704189296255,raises estimate vs reference
+HCP1829,territory,Territory: West,7.94862622078472,raises estimate vs reference
+HCP1449,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 594,-13.778416903326928,lowers estimate vs reference
+HCP1449,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 63,11.101878531097634,raises estimate vs reference
+HCP1449,territory,Territory: South,8.914726651684662,raises estimate vs reference
+HCP3516,hcp_stage,Recorded stage: Never accepted a sample,22.409236619287597,raises estimate vs reference
+HCP3516,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 1115,-6.605126299214764,lowers estimate vs reference
+HCP3516,territory,Territory: East,6.242532790889135,raises estimate vs reference
+HCP3475,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 18,15.470827215302682,raises estimate vs reference
+HCP3475,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 37,8.642503521745942,raises estimate vs reference
+HCP3475,prescriptions_week_before_visit,Prescriptions in the week before the most recent historical visit: 8,5.597556735933337,raises estimate vs reference
+HCP2705,territory,Territory: West,8.447363981348353,raises estimate vs reference
+HCP2705,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 540,-7.919718632769889,lowers estimate vs reference
+HCP2705,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 32,6.990359364390315,raises estimate vs reference
+HCP2108,territory,Territory: West,8.652599905465765,raises estimate vs reference
+HCP2108,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.619521179908978,raises estimate vs reference
+HCP2108,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.09580305956448,raises estimate vs reference
+HCP1696,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 53,9.961014228883286,raises estimate vs reference
+HCP1696,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 41,9.446482807860642,raises estimate vs reference
+HCP1696,territory,Territory: West,8.344501850513705,raises estimate vs reference
+HCP1140,territory,Territory: South,11.977388069431019,raises estimate vs reference
+HCP1140,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 18,3.0623378505623617,raises estimate vs reference
+HCP1140,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -1,2.7937991417298655,raises estimate vs reference
+HCP3347,territory,Territory: South,11.341898788681718,raises estimate vs reference
+HCP3347,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,8.647760300351388,raises estimate vs reference
+HCP3347,brand_share_90d,Client-brand share of category prescriptions: 19.4%,-6.211166509609342,lowers estimate vs reference
+HCP1145,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.561456920060622,raises estimate vs reference
+HCP1145,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.8007561167298896,raises estimate vs reference
+HCP1145,territory,Territory: East,5.635226652062973,raises estimate vs reference
+HCP1850,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 57,10.677280561585679,raises estimate vs reference
+HCP1850,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,8.306255165080675,raises estimate vs reference
+HCP1850,territory,Territory: West,7.291415851059971,raises estimate vs reference
+HCP3511,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 15,11.364761958398073,raises estimate vs reference
+HCP3511,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 54,10.455217766200242,raises estimate vs reference
+HCP3511,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 403,-7.784632227510234,lowers estimate vs reference
+HCP1002,territory,Territory: South,11.046462180505308,raises estimate vs reference
+HCP1002,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 33,6.948666936691033,raises estimate vs reference
+HCP1002,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 38,5.99747727858337,raises estimate vs reference
+HCP1871,territory,Territory: South,11.729535336826295,raises estimate vs reference
+HCP1871,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.843967581644682,raises estimate vs reference
+HCP1871,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 344,-3.766438328670803,lowers estimate vs reference
+HCP2141,territory,Territory: South,11.51763398273281,raises estimate vs reference
+HCP2141,brand_share_90d,Client-brand share of category prescriptions: 21.1%,-6.974817773813171,lowers estimate vs reference
+HCP2141,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.587305698624935,raises estimate vs reference
+HCP1070,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 17,15.138812664420392,raises estimate vs reference
+HCP1070,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 29,6.457192200478729,raises estimate vs reference
+HCP1070,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 451,-5.2709533682912815,lowers estimate vs reference
+HCP0721,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.293466016205445,raises estimate vs reference
+HCP0721,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 39,9.034519781364342,raises estimate vs reference
+HCP0721,territory,Territory: West,8.41846984108581,raises estimate vs reference
+HCP2751,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 20,16.087253805478024,raises estimate vs reference
+HCP2751,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 38,8.278576508161262,raises estimate vs reference
+HCP2751,territory,Territory: West,8.221017058388705,raises estimate vs reference
+HCP3547,brand_share_90d,Client-brand share of category prescriptions: 30.4%,-16.545461401153446,lowers estimate vs reference
+HCP3547,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 21,14.727557335135058,raises estimate vs reference
+HCP3547,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 56,10.8630587391133,raises estimate vs reference
+HCP2798,territory,Territory: West,8.659839976069906,raises estimate vs reference
+HCP2798,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.2854634296985195,raises estimate vs reference
+HCP2798,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.465877880750244,raises estimate vs reference
+HCP1157,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,9.081347066737047,raises estimate vs reference
+HCP1157,territory,Territory: West,8.659238162493562,raises estimate vs reference
+HCP1157,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 22,4.397996841060524,raises estimate vs reference
+HCP2283,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.650058541237847,raises estimate vs reference
+HCP2283,territory,Territory: East,5.670293431735194,raises estimate vs reference
+HCP2283,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 26,5.506833296805079,raises estimate vs reference
+HCP0265,territory,Territory: South,11.60239587738143,raises estimate vs reference
+HCP0265,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.474734099013112,raises estimate vs reference
+HCP0265,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 30,6.601351824399533,raises estimate vs reference
+HCP1252,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 57,11.796824221587254,raises estimate vs reference
+HCP1252,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 61,9.770927818021407,raises estimate vs reference
+HCP1252,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 431,-8.08614303002008,lowers estimate vs reference
+HCP0208,territory,Territory: South,11.970205999644929,raises estimate vs reference
+HCP0208,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.587718558473781,raises estimate vs reference
+HCP0208,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 18,3.040230701245043,raises estimate vs reference
+HCP1892,territory,Territory: South,11.969998851758728,raises estimate vs reference
+HCP1892,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 0,3.49231718548488,raises estimate vs reference
+HCP1892,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 18,3.039677943975298,raises estimate vs reference
+HCP3830,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 14,12.002960019778719,raises estimate vs reference
+HCP3830,territory,Territory: West,8.10336054675445,raises estimate vs reference
+HCP3830,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 34,6.91929247564502,raises estimate vs reference
+HCP3936,territory,Territory: West,8.61864409048926,raises estimate vs reference
+HCP3936,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 568,-7.185081689440784,lowers estimate vs reference
+HCP3936,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.179847901575842,raises estimate vs reference
+HCP1088,territory,Territory: South,11.042035511316467,raises estimate vs reference
+HCP1088,hcp_stage,Recorded stage: Never accepted a sample,10.660190334756722,raises estimate vs reference
+HCP1088,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.4477821865733915,lowers estimate vs reference
+HCP2289,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,8.925567917153048,raises estimate vs reference
+HCP2289,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.774697897879621,raises estimate vs reference
+HCP2289,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.827729793550876,raises estimate vs reference
+HCP1171,territory,Territory: West,8.61077455816028,raises estimate vs reference
+HCP1171,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,6.983499193389549,raises estimate vs reference
+HCP1171,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 16,2.4017341792782245,raises estimate vs reference
+HCP3831,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 21,16.04382781372088,raises estimate vs reference
+HCP3831,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 51,11.181487952387654,raises estimate vs reference
+HCP3831,prescriptions_week_before_visit,Prescriptions in the week before the most recent historical visit: 7,5.137987962032282,raises estimate vs reference
+HCP2061,territory,Territory: South,11.09231926999753,raises estimate vs reference
+HCP2061,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.12004504787958,raises estimate vs reference
+HCP2061,brand_share_90d,Client-brand share of category prescriptions: 19.9%,-6.8655215255559785,lowers estimate vs reference
+HCP2088,hcp_stage,Recorded stage: Never accepted a sample,26.620727141939483,raises estimate vs reference
+HCP2088,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 1345,-13.85667350265576,lowers estimate vs reference
+HCP2088,territory,Territory: East,5.99675395376222,raises estimate vs reference
+HCP3134,territory,Territory: South,11.368542661885916,raises estimate vs reference
+HCP3134,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.000979201559282,raises estimate vs reference
+HCP3134,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 31,6.670877597526259,raises estimate vs reference
+HCP1730,brand_share_90d,Client-brand share of category prescriptions: 26.1%,-9.813768380569865,lowers estimate vs reference
+HCP1730,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,8.836795480854214,raises estimate vs reference
+HCP1730,territory,Territory: West,8.565979157181902,raises estimate vs reference
+HCP1833,territory,Territory: South,11.436371771259141,raises estimate vs reference
+HCP1833,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.034420208000458,raises estimate vs reference
+HCP1833,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 24,4.593778969220448,raises estimate vs reference
+HCP0563,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 48,10.212504184135165,raises estimate vs reference
+HCP0563,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 441,-7.809740251890744,lowers estimate vs reference
+HCP0563,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 44,6.697803001978084,raises estimate vs reference
+HCP2193,territory,Territory: South,11.005113239046743,raises estimate vs reference
+HCP2193,hcp_stage,Recorded stage: Never accepted a sample,10.434565418906292,raises estimate vs reference
+HCP2193,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.441014840456302,lowers estimate vs reference
+HCP3918,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,10.132796060739587,raises estimate vs reference
+HCP3918,territory,Territory: East,5.3817489493783395,raises estimate vs reference
+HCP3918,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.501314179021073,raises estimate vs reference
+HCP1979,territory,Territory: South,11.991603941870299,raises estimate vs reference
+HCP1979,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.62473310476843,raises estimate vs reference
+HCP1979,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -2,2.0973713301831034,raises estimate vs reference
+HCP0215,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 25,15.97711113383808,raises estimate vs reference
+HCP0215,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 70,12.704821840325062,raises estimate vs reference
+HCP0215,brand_share_90d,Client-brand share of category prescriptions: 23.2%,-11.37302167162679,lowers estimate vs reference
+HCP3731,territory,Territory: South,11.643711033699189,raises estimate vs reference
+HCP3731,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.13649436352354,raises estimate vs reference
+HCP3731,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.671386648838405,raises estimate vs reference
+HCP2024,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 31,19.653612861482777,raises estimate vs reference
+HCP2024,brand_share_90d,Client-brand share of category prescriptions: 23.5%,-11.43650765337916,lowers estimate vs reference
+HCP2024,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 56,10.213693595421578,raises estimate vs reference
+HCP2095,hcp_stage,Recorded stage: Never accepted a sample,8.972600114995652,raises estimate vs reference
+HCP2095,territory,Territory: West,7.358902337665711,raises estimate vs reference
+HCP2095,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",7.038693116600101,raises estimate vs reference
+HCP2835,territory,Territory: South,10.80006226831934,raises estimate vs reference
+HCP2835,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 41,8.931833147291739,raises estimate vs reference
+HCP2835,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 50,8.633201124981474,raises estimate vs reference
+HCP2768,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 12,10.341738254569314,raises estimate vs reference
+HCP2768,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 48,10.142463825222103,raises estimate vs reference
+HCP2768,brand_share_90d,Client-brand share of category prescriptions: 22.5%,-9.570721094803167,lowers estimate vs reference
+HCP0387,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 48,10.922889034416453,raises estimate vs reference
+HCP0387,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 54,9.629053654842219,raises estimate vs reference
+HCP0387,territory,Territory: West,8.152607221811067,raises estimate vs reference
+HCP0796,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 21,15.26489962087286,raises estimate vs reference
+HCP0796,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 49,9.814755987999417,raises estimate vs reference
+HCP0796,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 362,-6.43231077652324,lowers estimate vs reference
+HCP2407,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 38,24.45197708267003,raises estimate vs reference
+HCP2407,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 58,11.404886098628733,raises estimate vs reference
+HCP2407,brand_share_90d,Client-brand share of category prescriptions: 20.1%,-8.376324181374875,lowers estimate vs reference
+HCP1378,territory,Territory: South,11.268426449850889,raises estimate vs reference
+HCP1378,brand_share_90d,Client-brand share of category prescriptions: 24.1%,-9.387460253140963,lowers estimate vs reference
+HCP1378,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 34,7.466620668840592,raises estimate vs reference
+HCP1359,territory,Territory: South,11.654860322608366,raises estimate vs reference
+HCP1359,brand_share_90d,Client-brand share of category prescriptions: 17.9%,-4.924047369450993,lowers estimate vs reference
+HCP1359,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.777303060732874,raises estimate vs reference
+HCP1019,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 68,12.691713408802558,raises estimate vs reference
+HCP1019,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 49,10.966139936440683,raises estimate vs reference
+HCP1019,territory,Territory: South,10.678087118989518,raises estimate vs reference
+HCP1425,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 20,14.601845025836418,raises estimate vs reference
+HCP1425,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 48,9.4887064995575,raises estimate vs reference
+HCP1425,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 373,-6.74725148116236,lowers estimate vs reference
+HCP1633,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 15,13.529564477621106,raises estimate vs reference
+HCP1633,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 33,7.4650169226347245,raises estimate vs reference
+HCP1633,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.514542160869692,raises estimate vs reference
+HCP2880,territory,Territory: West,8.686751356909333,raises estimate vs reference
+HCP2880,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.361684476497294,raises estimate vs reference
+HCP2880,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.2151494210612,raises estimate vs reference
+HCP0209,territory,Territory: South,10.929465713799145,raises estimate vs reference
+HCP0209,brand_share_90d,Client-brand share of category prescriptions: 24.0%,-9.846241749263736,lowers estimate vs reference
+HCP0209,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,5.781413325528879,raises estimate vs reference
+HCP0118,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 16,13.639704049438736,raises estimate vs reference
+HCP0118,territory,Territory: West,8.28418852655882,raises estimate vs reference
+HCP0118,brand_share_90d,Client-brand share of category prescriptions: 18.7%,-6.151289264243465,lowers estimate vs reference
+HCP0921,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 64,12.10897465437871,raises estimate vs reference
+HCP0921,brand_share_90d,Client-brand share of category prescriptions: 20.1%,-8.553233423217598,lowers estimate vs reference
+HCP0921,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,8.24998278619758,raises estimate vs reference
+HCP2616,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.833449413213953,raises estimate vs reference
+HCP2616,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.523331416515158,raises estimate vs reference
+HCP2616,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.92524652138212,raises estimate vs reference
+HCP0122,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 20,13.06883399534549,raises estimate vs reference
+HCP0122,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 62,10.695418420846892,raises estimate vs reference
+HCP0122,brand_share_90d,Client-brand share of category prescriptions: 21.2%,-9.81848371659492,lowers estimate vs reference
+HCP1789,territory,Territory: South,11.48225696301784,raises estimate vs reference
+HCP1789,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.424203600821695,raises estimate vs reference
+HCP1789,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 22,4.004837053108165,raises estimate vs reference
+HCP2171,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,11.135839475315079,raises estimate vs reference
+HCP2171,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 31,7.275565535227073,raises estimate vs reference
+HCP2171,brand_share_90d,Client-brand share of category prescriptions: 15.2%,-2.9538304760656415,lowers estimate vs reference
+HCP0626,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 29,6.2955945101950554,raises estimate vs reference
+HCP0626,territory,Territory: East,5.470582527287891,raises estimate vs reference
+HCP0626,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.447860781034503,raises estimate vs reference
+HCP0408,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,10.931454455466831,raises estimate vs reference
+HCP0408,brand_share_90d,Client-brand share of category prescriptions: 20.6%,-6.494069604473903,lowers estimate vs reference
+HCP0408,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.701873463576941,raises estimate vs reference
+HCP0119,hcp_stage,Recorded stage: Never accepted a sample,14.808201995588306,raises estimate vs reference
+HCP0119,territory,Territory: East,6.386085239783747,raises estimate vs reference
+HCP0119,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.400774589113073,lowers estimate vs reference
+HCP1699,territory,Territory: South,11.060807378693124,raises estimate vs reference
+HCP1699,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",6.806568803509968,raises estimate vs reference
+HCP1699,hcp_stage,Recorded stage: Testing phase,6.425775149924556,raises estimate vs reference
+HCP1895,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,9.053717304457825,raises estimate vs reference
+HCP1895,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.1613698288790255,raises estimate vs reference
+HCP1895,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 24,4.964078759045582,raises estimate vs reference
+HCP0790,territory,Territory: South,11.985672568705017,raises estimate vs reference
+HCP0790,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.586107146193066,raises estimate vs reference
+HCP0790,days_since_most_recent_visit,Days since the most recent visit: 277,1.7176925518772084,raises estimate vs reference
+HCP1369,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 72,11.656831726882569,raises estimate vs reference
+HCP1369,brand_share_90d,Client-brand share of category prescriptions: 21.4%,-10.379447397955996,lowers estimate vs reference
+HCP1369,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,7.463816164434438,raises estimate vs reference
+HCP0243,territory,Territory: South,10.799584893213678,raises estimate vs reference
+HCP0243,hcp_stage,Recorded stage: Never accepted a sample,8.698963109537656,raises estimate vs reference
+HCP0243,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.423808015113265,lowers estimate vs reference
+HCP3419,territory,Territory: South,11.980009181857469,raises estimate vs reference
+HCP3419,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.783512260502279,raises estimate vs reference
+HCP3419,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 1,4.186956482915717,raises estimate vs reference
+HCP1160,brand_share_90d,Client-brand share of category prescriptions: 26.3%,-11.747151501115656,lowers estimate vs reference
+HCP1160,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,11.380254901983918,raises estimate vs reference
+HCP1160,territory,Territory: West,8.110885550666548,raises estimate vs reference
+HCP0933,territory,Territory: West,8.669516467231848,raises estimate vs reference
+HCP0933,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 28,6.181849945457347,raises estimate vs reference
+HCP0933,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 28,3.9910103519301616,raises estimate vs reference
+HCP2851,territory,Territory: South,10.94759428890174,raises estimate vs reference
+HCP2851,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 37,7.978933180036643,raises estimate vs reference
+HCP2851,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 43,7.11671249294839,raises estimate vs reference
+HCP1376,territory,Territory: South,11.506043320993298,raises estimate vs reference
+HCP1376,brand_share_90d,Client-brand share of category prescriptions: 24.2%,-9.047520418332192,lowers estimate vs reference
+HCP1376,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 32,7.104363884344965,raises estimate vs reference
+HCP2779,territory,Territory: South,11.874746035619738,raises estimate vs reference
+HCP2779,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,6.942937372644385,raises estimate vs reference
+HCP2779,brand_share_90d,Client-brand share of category prescriptions: 17.9%,-4.520237259226578,lowers estimate vs reference
+HCP3987,territory,Territory: South,11.667491852286075,raises estimate vs reference
+HCP3987,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 50,9.94351998204106,raises estimate vs reference
+HCP3987,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -19,-9.56550327235136,lowers estimate vs reference
+HCP0848,territory,Territory: South,11.993103766891918,raises estimate vs reference
+HCP0848,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,9.084765573057123,raises estimate vs reference
+HCP0848,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 2,-3.6552384670998714,lowers estimate vs reference
+HCP2235,brand_share_90d,Client-brand share of category prescriptions: 30.4%,-15.576253046352399,lowers estimate vs reference
+HCP2235,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 14,11.375261207742374,raises estimate vs reference
+HCP2235,territory,Territory: South,10.151224113249036,raises estimate vs reference
+HCP0437,territory,Territory: West,8.701901646772232,raises estimate vs reference
+HCP0437,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.684581950772221,raises estimate vs reference
+HCP0437,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 23,4.673215982941237,raises estimate vs reference
+HCP1617,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 60,11.68655105913726,raises estimate vs reference
+HCP1617,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 44,10.287588842206668,raises estimate vs reference
+HCP1617,territory,Territory: West,8.34626083654646,raises estimate vs reference
+HCP0328,territory,Territory: South,11.958320650638955,raises estimate vs reference
+HCP0328,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.873784879009949,raises estimate vs reference
+HCP0328,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 9,-1.534790714371817,lowers estimate vs reference
+HCP0346,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 21,13.696279755881417,raises estimate vs reference
+HCP0346,brand_share_90d,Client-brand share of category prescriptions: 25.1%,-13.017456344426881,lowers estimate vs reference
+HCP0346,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 62,10.852188407131393,raises estimate vs reference
+HCP2035,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,10.763284358577794,raises estimate vs reference
+HCP2035,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 33,7.376749934939491,raises estimate vs reference
+HCP2035,brand_share_90d,Client-brand share of category prescriptions: 16.9%,-4.6048761026202625,lowers estimate vs reference
+HCP0564,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.39903641537355,raises estimate vs reference
+HCP0564,territory,Territory: East,5.9512857762243065,raises estimate vs reference
+HCP0564,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 19,3.366580672290762,raises estimate vs reference
+HCP1986,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 22,13.657584738821205,raises estimate vs reference
+HCP1986,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 71,11.824968367716703,raises estimate vs reference
+HCP1986,brand_share_90d,Client-brand share of category prescriptions: 20.8%,-9.673503361613395,lowers estimate vs reference
+HCP0523,territory,Territory: West,8.638988152395651,raises estimate vs reference
+HCP0523,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.766115565769701,raises estimate vs reference
+HCP0523,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.499577968921627,raises estimate vs reference
+HCP1599,territory,Territory: South,11.821090236982377,raises estimate vs reference
+HCP1599,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 24,4.86721936814202,raises estimate vs reference
+HCP1599,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 30,4.54632725605726,raises estimate vs reference
+HCP2466,brand_share_90d,Client-brand share of category prescriptions: 27.3%,-13.430733082810315,lowers estimate vs reference
+HCP2466,territory,Territory: South,10.066059726282411,raises estimate vs reference
+HCP2466,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 41,8.003653051579892,raises estimate vs reference
+HCP3558,territory,Territory: West,8.676000813024286,raises estimate vs reference
+HCP3558,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,6.9243737625262565,raises estimate vs reference
+HCP3558,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.958179294536547,raises estimate vs reference
+HCP0519,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.286076949563174,raises estimate vs reference
+HCP0519,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.24201046635649,raises estimate vs reference
+HCP0519,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 22,4.332466762860003,raises estimate vs reference
+HCP2063,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 62,10.454226701633987,raises estimate vs reference
+HCP2063,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 49,10.24557458410845,raises estimate vs reference
+HCP2063,brand_share_90d,Client-brand share of category prescriptions: 20.1%,-7.855479685963895,lowers estimate vs reference
+HCP1438,brand_share_90d,Client-brand share of category prescriptions: 25.0%,-12.800569485207008,lowers estimate vs reference
+HCP1438,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 68,12.356223042066242,raises estimate vs reference
+HCP1438,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 14,10.139378769781409,raises estimate vs reference
+HCP3257,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 10,9.926599815751377,raises estimate vs reference
+HCP3257,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 30,6.2703867138024965,raises estimate vs reference
+HCP3257,territory,Territory: East,5.133251040022233,raises estimate vs reference
+HCP0618,territory,Territory: South,10.817070618541575,raises estimate vs reference
+HCP0618,hcp_stage,Recorded stage: Never accepted a sample,9.394027342128366,raises estimate vs reference
+HCP0618,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.401917945053811,lowers estimate vs reference
+HCP3468,territory,Territory: West,8.583614893299652,raises estimate vs reference
+HCP3468,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.370800283066316,raises estimate vs reference
+HCP3468,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.7984101863477315,raises estimate vs reference
+HCP3438,territory,Territory: South,10.814403321630364,raises estimate vs reference
+HCP3438,hcp_stage,Recorded stage: Never accepted a sample,9.380431564457265,raises estimate vs reference
+HCP3438,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.401313723782874,lowers estimate vs reference
+HCP2562,territory,Territory: South,10.939114342562275,raises estimate vs reference
+HCP2562,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 33,6.8282926925807885,raises estimate vs reference
+HCP2562,brand_share_90d,Client-brand share of category prescriptions: 19.3%,-6.688162311861388,lowers estimate vs reference
+HCP1074,brand_share_90d,Client-brand share of category prescriptions: 28.2%,-12.996899218686881,lowers estimate vs reference
+HCP1074,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 14,12.043562682360637,raises estimate vs reference
+HCP1074,territory,Territory: West,8.12841354084772,raises estimate vs reference
+HCP3137,hcp_stage,Recorded stage: Never accepted a sample,12.169377528547752,raises estimate vs reference
+HCP3137,territory,Territory: West,7.5818955010869455,raises estimate vs reference
+HCP3137,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.390458896819959,lowers estimate vs reference
+HCP3925,territory,Territory: South,12.00929614413232,raises estimate vs reference
+HCP3925,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.601310015821748,raises estimate vs reference
+HCP3925,hcp_specialty,Specialty: Dermatology,-1.9090052088244107,lowers estimate vs reference
+HCP0656,territory,Territory: South,11.993578378288905,raises estimate vs reference
+HCP0656,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.28942470689474,raises estimate vs reference
+HCP0656,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 7,-2.1335850912793677,lowers estimate vs reference
+HCP0113,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 19,14.870422191794166,raises estimate vs reference
+HCP0113,brand_share_90d,Client-brand share of category prescriptions: 29.2%,-14.145286195523044,lowers estimate vs reference
+HCP0113,territory,Territory: South,10.522662539617333,raises estimate vs reference
+HCP2588,territory,Territory: South,11.975514221365032,raises estimate vs reference
+HCP2588,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 1,4.18492406348596,raises estimate vs reference
+HCP2588,hcp_specialty,Specialty: Dermatology,-1.8641971556334285,lowers estimate vs reference
+HCP3326,territory,Territory: South,11.32479991559824,raises estimate vs reference
+HCP3326,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 29,6.011216836258123,raises estimate vs reference
+HCP3326,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 36,5.730098920625541,raises estimate vs reference
+HCP3343,territory,Territory: South,11.54650673889471,raises estimate vs reference
+HCP3343,brand_share_90d,Client-brand share of category prescriptions: 23.9%,-8.797369239965631,lowers estimate vs reference
+HCP3343,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.58735051707962,raises estimate vs reference
+HCP3981,territory,Territory: South,12.007349685094255,raises estimate vs reference
+HCP3981,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.664950403755629,raises estimate vs reference
+HCP3981,days_since_most_recent_visit,Days since the most recent visit: 303,2.08606824053203,raises estimate vs reference
+HCP2408,territory,Territory: West,8.5305381365319,raises estimate vs reference
+HCP2408,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.88944207212134,raises estimate vs reference
+HCP2408,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.560237927965106,raises estimate vs reference
+HCP1347,territory,Territory: West,8.633749620243508,raises estimate vs reference
+HCP1347,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 40,7.238009513942949,raises estimate vs reference
+HCP1347,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.738429486156036,raises estimate vs reference
+HCP1962,territory,Territory: South,11.88918597027326,raises estimate vs reference
+HCP1962,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 496,-5.715308131946836,lowers estimate vs reference
+HCP1962,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.866268248893819,raises estimate vs reference
+HCP1387,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.762486137252052,raises estimate vs reference
+HCP1387,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.136467380321728,raises estimate vs reference
+HCP1387,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 21,3.968414415370019,raises estimate vs reference
+HCP2714,territory,Territory: South,11.721043464184572,raises estimate vs reference
+HCP2714,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,10.980028958101215,raises estimate vs reference
+HCP2714,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 26,5.417869313477041,raises estimate vs reference
+HCP2463,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 44,8.699125144411552,raises estimate vs reference
+HCP2463,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -16,-7.667206523635453,lowers estimate vs reference
+HCP2463,prescriptions_week_before_visit,Prescriptions in the week before the most recent historical visit: 11,7.353177820500578,raises estimate vs reference
+HCP0778,territory,Territory: South,12.014695210670334,raises estimate vs reference
+HCP0778,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -2,2.1016036736997044,raises estimate vs reference
+HCP0778,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 14,1.7089538273208298,raises estimate vs reference
+HCP0949,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 20,15.783252990697289,raises estimate vs reference
+HCP0949,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 45,9.93943401708264,raises estimate vs reference
+HCP0949,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 297,-4.291040389253155,lowers estimate vs reference
+HCP0115,territory,Territory: South,11.97603413164327,raises estimate vs reference
+HCP0115,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.25950662449509,raises estimate vs reference
+HCP0115,hcp_specialty,Specialty: Dermatology,-1.9788478643281684,lowers estimate vs reference
+HCP1542,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 482,-11.954019538581207,lowers estimate vs reference
+HCP1542,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 75,10.673439448892157,raises estimate vs reference
+HCP1542,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 16,9.701004134231155,raises estimate vs reference
+HCP3636,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 67,11.348041326949588,raises estimate vs reference
+HCP3636,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 51,10.595055859116181,raises estimate vs reference
+HCP3636,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 391,-6.935590402005801,lowers estimate vs reference
+HCP2801,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 68,12.460561912775301,raises estimate vs reference
+HCP2801,brand_share_90d,Client-brand share of category prescriptions: 21.9%,-10.152457090693105,lowers estimate vs reference
+HCP2801,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,9.646235225435964,raises estimate vs reference
+HCP2819,territory,Territory: West,8.55689176970858,raises estimate vs reference
+HCP2819,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 26,5.280969524249958,raises estimate vs reference
+HCP2819,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.483775145003073,raises estimate vs reference
+HCP2143,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.286021904243863,raises estimate vs reference
+HCP2143,territory,Territory: East,5.840091985360416,raises estimate vs reference
+HCP2143,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 23,4.648115966597073,raises estimate vs reference
+HCP1674,territory,Territory: South,10.651920535000459,raises estimate vs reference
+HCP1674,hcp_stage,Recorded stage: Never accepted a sample,8.079056773476493,raises estimate vs reference
+HCP1674,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.384693302352651,lowers estimate vs reference
+HCP3449,brand_share_90d,Client-brand share of category prescriptions: 27.5%,-12.050522221520648,lowers estimate vs reference
+HCP3449,territory,Territory: South,11.0872203016317,raises estimate vs reference
+HCP3449,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,10.420244574707063,raises estimate vs reference
+HCP3455,territory,Territory: South,12.01991419248771,raises estimate vs reference
+HCP3455,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.50793770585525,raises estimate vs reference
+HCP3455,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.908867195725435,raises estimate vs reference
+HCP0403,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,11.476844526996047,raises estimate vs reference
+HCP0403,brand_share_90d,Client-brand share of category prescriptions: 22.0%,-8.674819125259017,lowers estimate vs reference
+HCP0403,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 39,8.41612758046557,raises estimate vs reference
+HCP1281,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 23,17.184718808001715,raises estimate vs reference
+HCP1281,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 53,11.607294907717966,raises estimate vs reference
+HCP1281,calls_last_90d,Calls in the last 90 days: 2,-7.217188360097008,lowers estimate vs reference
+HCP0696,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 39,21.042566573948175,raises estimate vs reference
+HCP0696,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 88,13.644105288393094,raises estimate vs reference
+HCP0696,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 489,-11.805851587500179,lowers estimate vs reference
+HCP0505,hcp_stage,Recorded stage: Never accepted a sample,10.25068396238016,raises estimate vs reference
+HCP0505,territory,Territory: West,7.373974330025054,raises estimate vs reference
+HCP0505,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.374169814103152,lowers estimate vs reference
+HCP0664,territory,Territory: South,11.819626950007708,raises estimate vs reference
+HCP0664,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.558502880662815,raises estimate vs reference
+HCP0664,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.3341320372221235,lowers estimate vs reference
+HCP3972,territory,Territory: West,8.708774354385856,raises estimate vs reference
+HCP3972,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.065482945317833,raises estimate vs reference
+HCP3972,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 29,4.328039291872564,raises estimate vs reference
+HCP1600,territory,Territory: West,8.627613429192376,raises estimate vs reference
+HCP1600,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,6.851793707266049,raises estimate vs reference
+HCP1600,brand_share_90d,Client-brand share of category prescriptions: 20.9%,-6.704932936702693,lowers estimate vs reference
+HCP1628,territory,Territory: West,8.705199427072404,raises estimate vs reference
+HCP1628,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.714452692114492,raises estimate vs reference
+HCP1628,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.44243604308644,raises estimate vs reference
+HCP3279,brand_share_90d,Client-brand share of category prescriptions: 24.4%,-11.379069203954971,lowers estimate vs reference
+HCP3279,territory,Territory: South,9.905387018790105,raises estimate vs reference
+HCP3279,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 41,7.810083294268192,raises estimate vs reference
+HCP0669,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,11.00689927309168,raises estimate vs reference
+HCP0669,territory,Territory: East,5.576255591491638,raises estimate vs reference
+HCP0669,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.767064036965327,raises estimate vs reference
+HCP3812,territory,Territory: South,11.979093076955277,raises estimate vs reference
+HCP3812,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.598206097799144,raises estimate vs reference
+HCP3812,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.253987351284137,raises estimate vs reference
+HCP1168,territory,Territory: South,12.000490598738214,raises estimate vs reference
+HCP1168,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.716111323938229,raises estimate vs reference
+HCP1168,days_since_previous_visit,Days between the last two historical visits: 96,-2.1879901275442575,lowers estimate vs reference
+HCP3393,territory,Territory: South,10.697539978123281,raises estimate vs reference
+HCP3393,hcp_stage,Recorded stage: Never accepted a sample,8.812424665303014,raises estimate vs reference
+HCP3393,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.373660234005707,lowers estimate vs reference
+HCP3708,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 87,12.242445117954114,raises estimate vs reference
+HCP3708,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 428,-10.399428709653085,lowers estimate vs reference
+HCP3708,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 17,10.00100693009435,raises estimate vs reference
+HCP2049,territory,Territory: West,8.69261679072544,raises estimate vs reference
+HCP2049,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.858162387518191,raises estimate vs reference
+HCP2049,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 31,4.845239064344031,raises estimate vs reference
+HCP1693,territory,Territory: South,11.742113365573639,raises estimate vs reference
+HCP1693,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.748477811392415,raises estimate vs reference
+HCP1693,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 1,4.1247153346260195,raises estimate vs reference
+HCP2634,territory,Territory: East,5.918211021096038,raises estimate vs reference
+HCP2634,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.604954657058506,raises estimate vs reference
+HCP2634,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 428,-4.168495894278623,lowers estimate vs reference
+HCP1993,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 51,9.656826631244861,raises estimate vs reference
+HCP1993,territory,Territory: South,9.532289325549979,raises estimate vs reference
+HCP1993,brand_share_90d,Client-brand share of category prescriptions: 19.3%,-7.743187852550953,lowers estimate vs reference
+HCP1562,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,10.987249154836666,raises estimate vs reference
+HCP1562,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 30,6.692983010269299,raises estimate vs reference
+HCP1562,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.72509152659064,raises estimate vs reference
+HCP1046,brand_share_90d,Client-brand share of category prescriptions: 32.0%,-17.998189908335384,lowers estimate vs reference
+HCP1046,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 54,9.972375110746986,raises estimate vs reference
+HCP1046,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,9.923353598367239,raises estimate vs reference
+HCP3878,hcp_stage,Recorded stage: Never accepted a sample,11.737614294229509,raises estimate vs reference
+HCP3878,territory,Territory: East,6.34790699320211,raises estimate vs reference
+HCP3878,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.362534778247649,lowers estimate vs reference
+HCP1656,territory,Territory: West,8.715550818246731,raises estimate vs reference
+HCP1656,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 22,4.385114934962914,raises estimate vs reference
+HCP1656,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 28,4.163484046345376,raises estimate vs reference
+HCP1297,territory,Territory: South,12.002332542888615,raises estimate vs reference
+HCP1297,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.906235913492372,raises estimate vs reference
+HCP1297,brand_share_90d,Client-brand share of category prescriptions: 14.3%,-2.37004800123102,lowers estimate vs reference
+HCP1899,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 35,8.377831535652685,raises estimate vs reference
+HCP1899,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 34,5.6347467968045875,raises estimate vs reference
+HCP1899,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 1,4.142880762674503,raises estimate vs reference
+HCP3581,territory,Territory: South,10.586636081742018,raises estimate vs reference
+HCP3581,hcp_stage,Recorded stage: Never accepted a sample,7.729253524776751,raises estimate vs reference
+HCP3581,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.3706311987783995,lowers estimate vs reference
+HCP3649,territory,Territory: South,12.025582615912127,raises estimate vs reference
+HCP3649,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.82061156630618,raises estimate vs reference
+HCP3649,calls_last_90d,Calls in the last 90 days: 1,-4.556352352222057,lowers estimate vs reference
+HCP0535,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.7078440108132185,raises estimate vs reference
+HCP0535,territory,Territory: East,6.0854959243607425,raises estimate vs reference
+HCP0535,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 15,2.0527871452193502,raises estimate vs reference
+HCP3545,territory,Territory: South,11.817002467318073,raises estimate vs reference
+HCP3545,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",6.0475729671114635,raises estimate vs reference
+HCP3545,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 0,3.4351672023159927,raises estimate vs reference
+HCP2852,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 33,7.512876486239525,raises estimate vs reference
+HCP2852,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.443567143028673,raises estimate vs reference
+HCP2852,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.549159057535513,raises estimate vs reference
+HCP3611,territory,Territory: South,11.437329081029793,raises estimate vs reference
+HCP3611,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 52,10.06378594986605,raises estimate vs reference
+HCP3611,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -18,-8.72002649225129,lowers estimate vs reference
+HCP1228,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 12,11.774405310899326,raises estimate vs reference
+HCP1228,territory,Territory: East,5.667498892350142,raises estimate vs reference
+HCP1228,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 23,4.540050840039226,raises estimate vs reference
+HCP1721,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 41,20.23117180199173,raises estimate vs reference
+HCP1721,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 486,-12.503850824611176,lowers estimate vs reference
+HCP1721,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 92,12.218766871013175,raises estimate vs reference
+HCP1485,territory,Territory: South,11.8284237248004,raises estimate vs reference
+HCP1485,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -2,2.0633285072746084,raises estimate vs reference
+HCP1485,days_since_most_recent_visit,Days since the most recent visit: 340,1.764865656845089,raises estimate vs reference
+HCP0200,brand_share_90d,Client-brand share of category prescriptions: 26.9%,-13.279530140434579,lowers estimate vs reference
+HCP0200,territory,Territory: South,9.877325030074529,raises estimate vs reference
+HCP0200,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 43,8.264619531674326,raises estimate vs reference
+HCP2865,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 14,13.165324775147052,raises estimate vs reference
+HCP2865,territory,Territory: West,8.692049572241425,raises estimate vs reference
+HCP2865,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.909751706892467,raises estimate vs reference
+HCP2210,territory,Territory: West,8.54863715413896,raises estimate vs reference
+HCP2210,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,6.9575942010419904,raises estimate vs reference
+HCP2210,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 8,-1.8402364461610188,lowers estimate vs reference
+HCP2680,territory,Territory: South,11.599186761896036,raises estimate vs reference
+HCP2680,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.515878728468438,raises estimate vs reference
+HCP2680,brand_share_90d,Client-brand share of category prescriptions: 18.3%,-5.34892094518655,lowers estimate vs reference
+HCP3703,brand_share_90d,Client-brand share of category prescriptions: 32.0%,-16.91966301443956,lowers estimate vs reference
+HCP3703,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 12,10.083238718494544,raises estimate vs reference
+HCP3703,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 48,9.741627572540834,raises estimate vs reference
+HCP1009,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 18,13.165732707824738,raises estimate vs reference
+HCP1009,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 56,11.085243935531903,raises estimate vs reference
+HCP1009,territory,Territory: West,7.482052402980899,raises estimate vs reference
+HCP3412,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 34,7.694890224708425,raises estimate vs reference
+HCP3412,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 34,5.348864624220134,raises estimate vs reference
+HCP3412,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.393609925391378,raises estimate vs reference
+HCP0485,hcp_stage,Recorded stage: Never accepted a sample,12.410934056005363,raises estimate vs reference
+HCP0485,territory,Territory: East,6.325563960598418,raises estimate vs reference
+HCP0485,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.350038817355162,lowers estimate vs reference
+HCP3247,territory,Territory: South,10.541365590775644,raises estimate vs reference
+HCP3247,hcp_stage,Recorded stage: Never accepted a sample,7.543252062094544,raises estimate vs reference
+HCP3247,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.358466848131657,lowers estimate vs reference
+HCP0121,territory,Territory: South,11.879390041264642,raises estimate vs reference
+HCP0121,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.220068086434994,raises estimate vs reference
+HCP0121,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 4,-3.081368721482752,lowers estimate vs reference
+HCP1463,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 66,12.718060906295396,raises estimate vs reference
+HCP1463,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 61,8.764703635799556,raises estimate vs reference
+HCP1463,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 406,-8.021201495687418,lowers estimate vs reference
+HCP3202,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 16,13.460078691603963,raises estimate vs reference
+HCP3202,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 543,-9.231421216924815,lowers estimate vs reference
+HCP3202,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 33,6.7878866638580435,raises estimate vs reference
+HCP2159,territory,Territory: South,11.92362704372911,raises estimate vs reference
+HCP2159,brand_share_90d,Client-brand share of category prescriptions: 20.8%,-6.1109248697510425,lowers estimate vs reference
+HCP2159,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 20,3.6202728940451805,raises estimate vs reference
+HCP3825,hcp_stage,Recorded stage: Never accepted a sample,9.68395986784796,raises estimate vs reference
+HCP3825,territory,Territory: West,7.281945614791098,raises estimate vs reference
+HCP3825,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.348402389704353,lowers estimate vs reference
+HCP3698,territory,Territory: South,11.33043714564055,raises estimate vs reference
+HCP3698,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 33,7.209181771391444,raises estimate vs reference
+HCP3698,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 402,-5.743269590147855,lowers estimate vs reference
+HCP1468,brand_share_90d,Client-brand share of category prescriptions: 24.9%,-11.800778352227722,lowers estimate vs reference
+HCP1468,territory,Territory: South,9.812474893624906,raises estimate vs reference
+HCP1468,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 46,8.90517925715435,raises estimate vs reference
+HCP1978,territory,Territory: South,10.358686462060986,raises estimate vs reference
+HCP1978,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",7.116968685345809,raises estimate vs reference
+HCP1978,hcp_stage,Recorded stage: Never accepted a sample,5.483203198507361,raises estimate vs reference
+HCP2237,territory,Territory: South,11.97707764985344,raises estimate vs reference
+HCP2237,brand_share_90d,Client-brand share of category prescriptions: 5.1%,1.7028302100210884,raises estimate vs reference
+HCP2237,has_previous_visit,"Has a recorded historical visit (1=yes, 0=no): 0",1.1600965873305031,raises estimate vs reference
+HCP1094,territory,Territory: South,12.014405039854658,raises estimate vs reference
+HCP1094,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.911081405900056,raises estimate vs reference
+HCP1094,brand_share_90d,Client-brand share of category prescriptions: 17.9%,-4.17233173651011,lowers estimate vs reference
+HCP1529,territory,Territory: South,11.868442452813884,raises estimate vs reference
+HCP1529,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.967372456225188,raises estimate vs reference
+HCP1529,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 2,-3.6981001038834527,lowers estimate vs reference
+HCP3883,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.005393455242691,raises estimate vs reference
+HCP3883,brand_share_90d,Client-brand share of category prescriptions: 21.2%,-7.519152909827444,lowers estimate vs reference
+HCP3883,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 31,6.646007377279095,raises estimate vs reference
+HCP2291,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 39,8.074433382210689,raises estimate vs reference
+HCP2291,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 45,7.136585062196854,raises estimate vs reference
+HCP2291,brand_share_90d,Client-brand share of category prescriptions: 16.1%,-4.747218858487416,lowers estimate vs reference
+HCP2336,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 54,10.023839999909836,raises estimate vs reference
+HCP2336,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 43,9.874576557470476,raises estimate vs reference
+HCP2336,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 338,-4.818295049849458,lowers estimate vs reference
+HCP3752,territory,Territory: West,8.734148803669035,raises estimate vs reference
+HCP3752,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 23,4.6597316867935366,raises estimate vs reference
+HCP3752,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 29,4.388017223984442,raises estimate vs reference
+HCP2985,territory,Territory: South,11.103819826371275,raises estimate vs reference
+HCP2985,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 37,8.14608653149578,raises estimate vs reference
+HCP2985,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 37,5.774814061993687,raises estimate vs reference
+HCP3721,territory,Territory: South,10.590928781305584,raises estimate vs reference
+HCP3721,hcp_stage,Recorded stage: Never accepted a sample,8.337155344014596,raises estimate vs reference
+HCP3721,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.346602145694816,lowers estimate vs reference
+HCP3676,territory,Territory: East,5.749266943511352,raises estimate vs reference
+HCP3676,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 479,-5.562950671926526,lowers estimate vs reference
+HCP3676,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 1,4.1790924527652065,raises estimate vs reference
+HCP2706,territory,Territory: East,5.751733023567551,raises estimate vs reference
+HCP2706,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 24,4.9232934264332275,raises estimate vs reference
+HCP2706,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 25,3.1652278697901264,raises estimate vs reference
+HCP1740,territory,Territory: South,11.963256511237702,raises estimate vs reference
+HCP1740,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 1,4.180261397925318,raises estimate vs reference
+HCP1740,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 8,-1.8365391331964072,lowers estimate vs reference
+HCP1694,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 16,14.745735725663383,raises estimate vs reference
+HCP1694,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 23,4.748505197541252,raises estimate vs reference
+HCP1694,brand_share_90d,Client-brand share of category prescriptions: 18.5%,-4.238488542168314,lowers estimate vs reference
+HCP2310,territory,Territory: South,12.030815052988528,raises estimate vs reference
+HCP2310,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.724144236829705,raises estimate vs reference
+HCP2310,brand_share_90d,Client-brand share of category prescriptions: 18.3%,-4.196491154387605,lowers estimate vs reference
+HCP2042,territory,Territory: West,8.735309954472152,raises estimate vs reference
+HCP2042,brand_share_90d,Client-brand share of category prescriptions: 23.2%,-7.101960441504532,lowers estimate vs reference
+HCP2042,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.299407089670732,raises estimate vs reference
+HCP3178,territory,Territory: South,10.851549906108996,raises estimate vs reference
+HCP3178,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 32,6.457777793788905,raises estimate vs reference
+HCP3178,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 37,5.550420070336393,raises estimate vs reference
+HCP1746,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 15,13.603969506893959,raises estimate vs reference
+HCP1746,brand_share_90d,Client-brand share of category prescriptions: 25.8%,-9.95902780298931,lowers estimate vs reference
+HCP1746,territory,Territory: West,8.589571161525052,raises estimate vs reference
+HCP3309,territory,Territory: South,11.819977812219006,raises estimate vs reference
+HCP3309,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.498592001902603,raises estimate vs reference
+HCP3309,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 3,-3.3946037307486625,lowers estimate vs reference
+HCP2646,territory,Territory: South,10.672617146746125,raises estimate vs reference
+HCP2646,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 521,-9.153977210987954,lowers estimate vs reference
+HCP2646,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 42,9.032803499077616,raises estimate vs reference
+HCP0148,territory,Territory: West,8.669767217613488,raises estimate vs reference
+HCP0148,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.826128434473624,raises estimate vs reference
+HCP0148,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 24,4.810003013043696,raises estimate vs reference
+HCP2941,territory,Territory: West,8.668197019018105,raises estimate vs reference
+HCP2941,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,7.011340258046814,raises estimate vs reference
+HCP2941,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 16,2.394006322504124,raises estimate vs reference
+HCP1514,territory,Territory: South,12.000047680343876,raises estimate vs reference
+HCP1514,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.720093854028569,raises estimate vs reference
+HCP1514,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 6,-2.436468396574067,lowers estimate vs reference
+HCP0748,territory,Territory: South,11.410447379198816,raises estimate vs reference
+HCP0748,brand_share_90d,Client-brand share of category prescriptions: 26.5%,-10.838364455779775,lowers estimate vs reference
+HCP0748,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.354598954640853,raises estimate vs reference
+HCP0382,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 20,14.50408543798954,raises estimate vs reference
+HCP0382,territory,Territory: South,9.823726005118784,raises estimate vs reference
+HCP0382,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 48,9.405532697924182,raises estimate vs reference
+HCP2746,brand_share_90d,Client-brand share of category prescriptions: 27.4%,-12.285551274236386,lowers estimate vs reference
+HCP2746,territory,Territory: South,10.897058983097535,raises estimate vs reference
+HCP2746,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.047169636860204,raises estimate vs reference
+HCP1024,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.83269965433311,raises estimate vs reference
+HCP1024,territory,Territory: East,5.990018308454012,raises estimate vs reference
+HCP1024,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 17,2.7083738604267404,raises estimate vs reference
+HCP1224,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 32,7.063711018024253,raises estimate vs reference
+HCP1224,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,6.73681050997712,raises estimate vs reference
+HCP1224,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 374,-4.996326282845678,lowers estimate vs reference
+HCP1577,brand_share_90d,Client-brand share of category prescriptions: 26.8%,-13.779291354506196,lowers estimate vs reference
+HCP1577,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 18,12.74086937688691,raises estimate vs reference
+HCP1577,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 59,11.185617679935902,raises estimate vs reference
+HCP0966,territory,Territory: South,12.035816454608305,raises estimate vs reference
+HCP0966,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 14,1.7021939572285958,raises estimate vs reference
+HCP0966,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 19,1.503982380538959,raises estimate vs reference
+HCP0175,territory,Territory: West,8.72824408410578,raises estimate vs reference
+HCP0175,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.916275549943412,raises estimate vs reference
+HCP0175,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 465,-4.434665616937028,lowers estimate vs reference
+HCP1139,hcp_stage,Recorded stage: Testing phase,8.053538159922368,raises estimate vs reference
+HCP1139,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",6.562156124432521,raises estimate vs reference
+HCP1139,territory,Territory: East,6.293141904684705,raises estimate vs reference
+HCP1117,territory,Territory: West,8.655292965586698,raises estimate vs reference
+HCP1117,brand_share_90d,Client-brand share of category prescriptions: 21.4%,-6.9802884808737735,lowers estimate vs reference
+HCP1117,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.712439485891752,raises estimate vs reference
+HCP1982,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,9.087788218490001,raises estimate vs reference
+HCP1982,territory,Territory: East,5.811489063238831,raises estimate vs reference
+HCP1982,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 467,-5.175635565131614,lowers estimate vs reference
+HCP3770,territory,Territory: West,8.732993589721998,raises estimate vs reference
+HCP3770,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.617857927854034,raises estimate vs reference
+HCP3770,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.365471423606563,raises estimate vs reference
+HCP3766,territory,Territory: South,11.815800007483931,raises estimate vs reference
+HCP3766,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 1,4.122586657684878,raises estimate vs reference
+HCP3766,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 6,-2.467137631325664,lowers estimate vs reference
+HCP3570,territory,Territory: South,11.74226985870192,raises estimate vs reference
+HCP3570,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.776854985195022,raises estimate vs reference
+HCP3570,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 4,-3.0892745183487946,lowers estimate vs reference
+HCP1165,hcp_stage,Recorded stage: Never accepted a sample,24.255218060830025,raises estimate vs reference
+HCP1165,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 1338,-10.50745813078201,lowers estimate vs reference
+HCP1165,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.2799196165610205,lowers estimate vs reference
+HCP2937,territory,Territory: South,11.794310554226117,raises estimate vs reference
+HCP2937,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.485838680374246,raises estimate vs reference
+HCP2937,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 3,-3.3938585688546534,lowers estimate vs reference
+HCP2455,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 52,10.218674246650682,raises estimate vs reference
+HCP2455,territory,Territory: South,9.728629608194348,raises estimate vs reference
+HCP2455,brand_share_90d,Client-brand share of category prescriptions: 21.6%,-9.327883828000745,lowers estimate vs reference
+HCP0271,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 35,8.040253727657165,raises estimate vs reference
+HCP0271,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 40,6.988975266900052,raises estimate vs reference
+HCP0271,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.428728694451664,raises estimate vs reference
+HCP3997,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 30,6.971203813721526,raises estimate vs reference
+HCP3997,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 34,5.831350710552929,raises estimate vs reference
+HCP3997,prescriptions_week_before_visit,Prescriptions in the week before the most recent historical visit: 4,2.6766292695376825,raises estimate vs reference
+HCP0049,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,9.046727262157244,raises estimate vs reference
+HCP0049,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 31,7.192841159532358,raises estimate vs reference
+HCP0049,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 309,-3.1684282581192753,lowers estimate vs reference
+HCP1368,territory,Territory: West,8.55556176590445,raises estimate vs reference
+HCP1368,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.3512292744437,raises estimate vs reference
+HCP1368,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 5,-2.7559226415690317,lowers estimate vs reference
+HCP1317,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 21,12.86985915024712,raises estimate vs reference
+HCP1317,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 72,11.636938077835978,raises estimate vs reference
+HCP1317,brand_share_90d,Client-brand share of category prescriptions: 22.7%,-11.351278419128622,lowers estimate vs reference
+HCP1933,brand_share_90d,Client-brand share of category prescriptions: 23.9%,-10.708056883721891,lowers estimate vs reference
+HCP1933,territory,Territory: South,10.162222413407074,raises estimate vs reference
+HCP1933,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 38,7.368249653070789,raises estimate vs reference
+HCP3914,territory,Territory: South,12.02793737891438,raises estimate vs reference
+HCP3914,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.354574045140096,raises estimate vs reference
+HCP3914,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.9163055690697615,raises estimate vs reference
+HCP0055,territory,Territory: West,7.442938516588652,raises estimate vs reference
+HCP0055,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",6.652743351766166,raises estimate vs reference
+HCP0055,hcp_stage,Recorded stage: Testing phase,6.550175449601955,raises estimate vs reference
+HCP3205,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,12.313698671591732,raises estimate vs reference
+HCP3205,brand_share_90d,Client-brand share of category prescriptions: 27.5%,-10.807160916498743,lowers estimate vs reference
+HCP3205,territory,Territory: West,8.626866428295397,raises estimate vs reference
+HCP1794,territory,Territory: West,8.464555348929848,raises estimate vs reference
+HCP1794,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.93598358236658,raises estimate vs reference
+HCP1794,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 1,4.145658796733227,raises estimate vs reference
+HCP2347,territory,Territory: South,11.8896128167271,raises estimate vs reference
+HCP2347,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 0,3.4594510942975276,raises estimate vs reference
+HCP2347,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 8,-1.8441245550848366,lowers estimate vs reference
+HCP0027,territory,Territory: South,10.498917669368794,raises estimate vs reference
+HCP0027,hcp_stage,Recorded stage: Never accepted a sample,7.955961364357704,raises estimate vs reference
+HCP0027,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.322012836873668,lowers estimate vs reference
+HCP3821,territory,Territory: South,10.439865219256578,raises estimate vs reference
+HCP3821,hcp_stage,Recorded stage: Never accepted a sample,7.310349113719067,raises estimate vs reference
+HCP3821,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",6.930447991476778,raises estimate vs reference
+HCP1022,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 20,14.951708147687626,raises estimate vs reference
+HCP1022,brand_share_90d,Client-brand share of category prescriptions: 24.3%,-11.016900909238702,lowers estimate vs reference
+HCP1022,territory,Territory: South,10.141078800053469,raises estimate vs reference
+HCP3251,brand_share_90d,Client-brand share of category prescriptions: 25.4%,-13.203020111676505,lowers estimate vs reference
+HCP3251,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 73,12.968359328425121,raises estimate vs reference
+HCP3251,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 72,9.694042450542085,raises estimate vs reference
+HCP2810,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,11.939516131921957,raises estimate vs reference
+HCP2810,territory,Territory: West,8.430355040601839,raises estimate vs reference
+HCP2810,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 31,6.576906316062011,raises estimate vs reference
+HCP1121,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.723814483428794,raises estimate vs reference
+HCP1121,territory,Territory: East,5.920755194819304,raises estimate vs reference
+HCP1121,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 18,3.0218031783880313,raises estimate vs reference
+HCP0836,brand_share_90d,Client-brand share of category prescriptions: 26.6%,-11.429108978607836,lowers estimate vs reference
+HCP0836,territory,Territory: South,11.13337607540303,raises estimate vs reference
+HCP0836,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 37,8.176192998213688,raises estimate vs reference
+HCP1678,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 590,-11.931412820644594,lowers estimate vs reference
+HCP1678,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 41,7.77581838112985,raises estimate vs reference
+HCP1678,territory,Territory: West,7.588549057910965,raises estimate vs reference
+HCP3406,brand_share_90d,Client-brand share of category prescriptions: 24.5%,-10.564938818745597,lowers estimate vs reference
+HCP3406,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,8.806648878845055,raises estimate vs reference
+HCP3406,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 35,7.134910749605962,raises estimate vs reference
+HCP2150,hcp_stage,Recorded stage: Never accepted a sample,17.62885372999389,raises estimate vs reference
+HCP2150,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.3244023053019305,lowers estimate vs reference
+HCP2150,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 0,3.315583041893279,raises estimate vs reference
+HCP1163,brand_share_90d,Client-brand share of category prescriptions: 27.5%,-12.919983954097253,lowers estimate vs reference
+HCP1163,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 13,11.165324682693285,raises estimate vs reference
+HCP1163,territory,Territory: South,10.53513842372649,raises estimate vs reference
+HCP3701,territory,Territory: South,10.393835014558709,raises estimate vs reference
+HCP3701,hcp_stage,Recorded stage: Never accepted a sample,6.978767908365305,raises estimate vs reference
+HCP3701,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.317047051203449,lowers estimate vs reference
+HCP0682,territory,Territory: South,11.916617032071317,raises estimate vs reference
+HCP0682,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -8,-2.0811024084036225,lowers estimate vs reference
+HCP0682,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 20,1.8398086814041144,raises estimate vs reference
+HCP3301,territory,Territory: South,11.93422170854363,raises estimate vs reference
+HCP3301,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.558886036207963,raises estimate vs reference
+HCP3301,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 4,-3.0628681881858446,lowers estimate vs reference
+HCP1076,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 77,13.841847105402927,raises estimate vs reference
+HCP1076,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 62,13.679167678444115,raises estimate vs reference
+HCP1076,brand_share_90d,Client-brand share of category prescriptions: 28.1%,-13.646503225202322,lowers estimate vs reference
+HCP2928,hcp_stage,Recorded stage: Testing phase,6.983726281791277,raises estimate vs reference
+HCP2928,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",6.595977657703962,raises estimate vs reference
+HCP2928,territory,Territory: East,6.264176191940113,raises estimate vs reference
+HCP0788,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 740,-11.911539463169504,lowers estimate vs reference
+HCP0788,territory,Territory: South,11.405754857416769,raises estimate vs reference
+HCP0788,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.360283353407704,raises estimate vs reference
+HCP2256,hcp_stage,Recorded stage: Never accepted a sample,11.197041873513761,raises estimate vs reference
+HCP2256,territory,Territory: East,6.26593139123664,raises estimate vs reference
+HCP2256,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.304641607315611,lowers estimate vs reference
+HCP0606,territory,Territory: South,12.045626762293812,raises estimate vs reference
+HCP0606,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 22,2.3959074863717644,raises estimate vs reference
+HCP0606,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 15,2.036135188141254,raises estimate vs reference
+HCP1323,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 59,11.620833261638941,raises estimate vs reference
+HCP1323,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 62,9.377484551444702,raises estimate vs reference
+HCP1323,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 466,-9.2443477843618,lowers estimate vs reference
+HCP2857,brand_share_90d,Client-brand share of category prescriptions: 27.1%,-12.712750910095117,lowers estimate vs reference
+HCP2857,territory,Territory: West,7.956014590055024,raises estimate vs reference
+HCP2857,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 38,7.724390457276739,raises estimate vs reference
+HCP2314,brand_share_90d,Client-brand share of category prescriptions: 27.8%,-16.908483801027813,lowers estimate vs reference
+HCP2314,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 101,13.300115092679818,raises estimate vs reference
+HCP2314,prescriptions_week_before_visit,Prescriptions in the week before the most recent historical visit: 17,12.732378525583824,raises estimate vs reference
+HCP2592,brand_share_90d,Client-brand share of category prescriptions: 27.3%,-11.810899908423444,lowers estimate vs reference
+HCP2592,territory,Territory: West,8.358288405879257,raises estimate vs reference
+HCP2592,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 36,7.924307087006468,raises estimate vs reference
+HCP3615,territory,Territory: South,11.872874602564655,raises estimate vs reference
+HCP3615,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,9.031184890771602,raises estimate vs reference
+HCP3615,brand_share_90d,Client-brand share of category prescriptions: 25.0%,-8.75566714634746,lowers estimate vs reference
+HCP1641,brand_share_90d,Client-brand share of category prescriptions: 37.3%,-19.944422583068913,lowers estimate vs reference
+HCP1641,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 11,9.901979310782485,raises estimate vs reference
+HCP1641,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 41,8.558367265548492,raises estimate vs reference
+HCP0235,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 69,12.815465841879153,raises estimate vs reference
+HCP0235,brand_share_90d,Client-brand share of category prescriptions: 25.3%,-12.765500421984498,lowers estimate vs reference
+HCP0235,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 65,9.054930608628109,raises estimate vs reference
+HCP2479,territory,Territory: South,11.682272896789673,raises estimate vs reference
+HCP2479,brand_share_90d,Client-brand share of category prescriptions: 25.0%,-9.346140949391362,lowers estimate vs reference
+HCP2479,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.212779632531491,raises estimate vs reference
+HCP3540,territory,Territory: West,8.705706138388711,raises estimate vs reference
+HCP3540,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.850454452729867,raises estimate vs reference
+HCP3540,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 23,4.527150260783772,raises estimate vs reference
+HCP0752,territory,Territory: South,11.972777882379363,raises estimate vs reference
+HCP0752,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -7,-1.394887715077918,lowers estimate vs reference
+HCP0752,brand_share_90d,Client-brand share of category prescriptions: 6.2%,1.274419262790207,raises estimate vs reference
+HCP1221,territory,Territory: South,11.81831907315704,raises estimate vs reference
+HCP1221,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 435,-5.378918292935775,lowers estimate vs reference
+HCP1221,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 25,5.1539888189695064,raises estimate vs reference
+HCP2633,territory,Territory: South,11.504644602000942,raises estimate vs reference
+HCP2633,brand_share_90d,Client-brand share of category prescriptions: 24.1%,-9.181661232561115,lowers estimate vs reference
+HCP2633,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.534286524969287,raises estimate vs reference
+HCP3847,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 39,8.155611634744771,raises estimate vs reference
+HCP3847,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 39,5.820018883828714,raises estimate vs reference
+HCP3847,territory,Territory: East,4.592987554290552,raises estimate vs reference
+HCP1065,territory,Territory: South,11.83480944125883,raises estimate vs reference
+HCP1065,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",4.836292399753179,raises estimate vs reference
+HCP1065,calls_last_90d,Calls in the last 90 days: 1,-4.351938660979718,lowers estimate vs reference
+HCP1253,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 14,12.024274178191014,raises estimate vs reference
+HCP1253,brand_share_90d,Client-brand share of category prescriptions: 26.6%,-11.952459893476815,lowers estimate vs reference
+HCP1253,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 38,8.034814893063627,raises estimate vs reference
+HCP1004,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,6.008317177798066,raises estimate vs reference
+HCP1004,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.6135892087108825,raises estimate vs reference
+HCP1004,brand_share_90d,Client-brand share of category prescriptions: 19.6%,-5.215073309138524,lowers estimate vs reference
+HCP0509,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 51,9.592830275535867,raises estimate vs reference
+HCP0509,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 36,8.085557725081237,raises estimate vs reference
+HCP0509,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -15,-6.641779214287389,lowers estimate vs reference
+HCP0686,territory,Territory: South,11.218886470462111,raises estimate vs reference
+HCP0686,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 30,6.203747643433159,raises estimate vs reference
+HCP0686,brand_share_90d,Client-brand share of category prescriptions: 18.5%,-5.962344204945545,lowers estimate vs reference
+HCP3045,territory,Territory: West,7.265275457289823,raises estimate vs reference
+HCP3045,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",6.698618037315791,raises estimate vs reference
+HCP3045,hcp_stage,Recorded stage: Testing phase,5.260317371662104,raises estimate vs reference
+HCP2936,territory,Territory: South,11.827453624471925,raises estimate vs reference
+HCP2936,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.961236123786671,raises estimate vs reference
+HCP2936,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.304096395743315,lowers estimate vs reference
+HCP0068,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 8,9.062375374507175,raises estimate vs reference
+HCP0068,territory,Territory: East,6.1450462103604915,raises estimate vs reference
+HCP0068,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 4,-3.053604383148221,lowers estimate vs reference
+HCP2397,territory,Territory: West,8.741705568178453,raises estimate vs reference
+HCP2397,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.387439040100292,raises estimate vs reference
+HCP2397,days_since_previous_visit,Days between the last two historical visits: 243,-5.3853526247055,lowers estimate vs reference
+HCP1152,territory,Territory: South,11.781346363427932,raises estimate vs reference
+HCP1152,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -1,2.7402311908795487,raises estimate vs reference
+HCP1152,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 8,-1.8462548825647838,lowers estimate vs reference
+HCP2682,territory,Territory: South,12.04854277375631,raises estimate vs reference
+HCP2682,brand_share_90d,Client-brand share of category prescriptions: 18.2%,-4.100248756579622,lowers estimate vs reference
+HCP2682,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 0,3.5158335977853046,raises estimate vs reference
+HCP0441,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 29,15.803004598176784,raises estimate vs reference
+HCP0441,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 96,14.373836910956134,raises estimate vs reference
+HCP0441,brand_share_90d,Client-brand share of category prescriptions: 23.6%,-12.49013841975585,lowers estimate vs reference
+HCP3669,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 623,-11.641925135309378,lowers estimate vs reference
+HCP3669,territory,Territory: South,10.505132829700266,raises estimate vs reference
+HCP3669,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 31,5.880245817416167,raises estimate vs reference
+HCP2345,brand_share_90d,Client-brand share of category prescriptions: 27.0%,-12.174876776894223,lowers estimate vs reference
+HCP2345,territory,Territory: South,10.813711600493134,raises estimate vs reference
+HCP2345,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 27,5.026138068696066,raises estimate vs reference
+HCP1276,territory,Territory: South,11.780491628571857,raises estimate vs reference
+HCP1276,days_since_most_recent_visit,Days since the most recent visit: 291,1.4205466624709375,raises estimate vs reference
+HCP1276,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -3,1.3700265395469742,raises estimate vs reference
+HCP1325,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 16,14.318509186282322,raises estimate vs reference
+HCP1325,territory,Territory: West,8.610536699262559,raises estimate vs reference
+HCP1325,calls_last_90d,Calls in the last 90 days: 2,-8.464016312070113,lowers estimate vs reference
+HCP2485,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 64,11.281275544386267,raises estimate vs reference
+HCP2485,brand_share_90d,Client-brand share of category prescriptions: 23.2%,-11.25030373672172,lowers estimate vs reference
+HCP2485,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 63,8.307965783709898,raises estimate vs reference
+HCP2394,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.793577209404344,raises estimate vs reference
+HCP2394,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 25,5.2857476441460545,raises estimate vs reference
+HCP2394,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.085967962073122,raises estimate vs reference
+HCP0532,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 519,-9.685540687515024,lowers estimate vs reference
+HCP0532,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 39,7.736431872757862,raises estimate vs reference
+HCP0532,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,4.837427451231045,raises estimate vs reference
+HCP3072,territory,Territory: South,11.941338321048454,raises estimate vs reference
+HCP3072,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.258369948714332,raises estimate vs reference
+HCP3072,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 2,-3.670568914579882,lowers estimate vs reference
+HCP3643,territory,Territory: West,8.682169669128562,raises estimate vs reference
+HCP3643,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 0,3.509190967845742,raises estimate vs reference
+HCP3643,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 15,2.0506838555606053,raises estimate vs reference
+HCP0333,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 33,7.868563110754925,raises estimate vs reference
+HCP0333,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 32,5.170277723929879,raises estimate vs reference
+HCP0333,brand_share_90d,Client-brand share of category prescriptions: 17.8%,-4.617670552611722,lowers estimate vs reference
+HCP3170,hcp_stage,Recorded stage: Never accepted a sample,8.673400805196678,raises estimate vs reference
+HCP3170,territory,Territory: West,7.100909585577033,raises estimate vs reference
+HCP3170,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.290863456724407,lowers estimate vs reference
+HCP1050,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 723,-18.72137942187039,lowers estimate vs reference
+HCP1050,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 81,12.162517632309923,raises estimate vs reference
+HCP1050,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 72,7.8474655241361795,raises estimate vs reference
+HCP3518,territory,Territory: South,10.393165407769864,raises estimate vs reference
+HCP3518,hcp_stage,Recorded stage: Never accepted a sample,7.547451960723943,raises estimate vs reference
+HCP3518,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.292487923874157,lowers estimate vs reference
+HCP1915,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.0346449951262136,raises estimate vs reference
+HCP1915,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 24,4.934371446542878,raises estimate vs reference
+HCP1915,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 0,3.4925563782565985,raises estimate vs reference
+HCP1960,territory,Territory: West,8.582926636222446,raises estimate vs reference
+HCP1960,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.7715565011074625,raises estimate vs reference
+HCP1960,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.879989141317028,raises estimate vs reference
+HCP3795,territory,Territory: South,11.95091785228918,raises estimate vs reference
+HCP3795,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.799753429408018,raises estimate vs reference
+HCP3795,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 2,-3.667496378689963,lowers estimate vs reference
+HCP0899,territory,Territory: West,8.71541451509214,raises estimate vs reference
+HCP0899,brand_share_90d,Client-brand share of category prescriptions: 22.7%,-7.555211316596104,lowers estimate vs reference
+HCP0899,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 25,5.185265771317309,raises estimate vs reference
+HCP1738,hcp_stage,Recorded stage: Never accepted a sample,9.672000469195234,raises estimate vs reference
+HCP1738,territory,Territory: East,6.249897047033656,raises estimate vs reference
+HCP1738,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.287639487271479,lowers estimate vs reference
+HCP2469,territory,Territory: South,10.595632182928332,raises estimate vs reference
+HCP2469,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",6.714204296976438,raises estimate vs reference
+HCP2469,hcp_stage,Recorded stage: Testing phase,4.801747243693999,raises estimate vs reference
+HCP0016,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 39,21.392290363181683,raises estimate vs reference
+HCP0016,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 529,-12.568172702855197,lowers estimate vs reference
+HCP0016,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 78,12.38747397483169,raises estimate vs reference
+HCP3025,territory,Territory: South,11.744059072172131,raises estimate vs reference
+HCP3025,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.629288583684133,raises estimate vs reference
+HCP3025,brand_share_90d,Client-brand share of category prescriptions: 21.1%,-6.898828714409764,lowers estimate vs reference
+HCP1356,territory,Territory: South,12.043404462194749,raises estimate vs reference
+HCP1356,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.619976001947423,raises estimate vs reference
+HCP1356,brand_share_90d,Client-brand share of category prescriptions: 14.5%,-2.2501330022553216,lowers estimate vs reference
+HCP0960,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 12,11.953707463370513,raises estimate vs reference
+HCP0960,territory,Territory: East,5.939174891733927,raises estimate vs reference
+HCP0960,brand_share_90d,Client-brand share of category prescriptions: 16.2%,-3.3242533097234843,lowers estimate vs reference
+HCP1643,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 58,11.489690234456017,raises estimate vs reference
+HCP1643,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 521,-10.5237456742253,lowers estimate vs reference
+HCP1643,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 54,7.894022893348765,raises estimate vs reference
+HCP1858,territory,Territory: West,8.645024575693567,raises estimate vs reference
+HCP1858,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 4,6.302068663304514,raises estimate vs reference
+HCP1858,hcp_specialty,Specialty: Dermatology,-1.9009315596770937,lowers estimate vs reference
+HCP3645,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 678,-12.083361009599948,lowers estimate vs reference
+HCP3645,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,8.958516197287716,raises estimate vs reference
+HCP3645,territory,Territory: East,4.794209344826905,raises estimate vs reference
+HCP3742,territory,Territory: South,12.049646131020713,raises estimate vs reference
+HCP3742,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,7.034475226962898,raises estimate vs reference
+HCP3742,calls_last_90d,Calls in the last 90 days: 1,-4.533260049966543,lowers estimate vs reference
+HCP0111,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 24,13.903747807550504,raises estimate vs reference
+HCP0111,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 67,10.156996575568328,raises estimate vs reference
+HCP0111,brand_share_90d,Client-brand share of category prescriptions: 20.1%,-9.232989752802228,lowers estimate vs reference
+HCP1018,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 9,9.795228930090733,raises estimate vs reference
+HCP1018,territory,Territory: East,5.792249573537936,raises estimate vs reference
+HCP1018,brand_share_90d,Client-brand share of category prescriptions: 16.4%,-3.7373728653487293,lowers estimate vs reference
+HCP1655,hcp_stage,Recorded stage: Never accepted a sample,7.752080948044192,raises estimate vs reference
+HCP1655,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",6.836470166796419,raises estimate vs reference
+HCP1655,territory,Territory: East,6.256735694539007,raises estimate vs reference
+HCP1036,territory,Territory: South,11.7964915771028,raises estimate vs reference
+HCP1036,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 0,3.430374099397593,raises estimate vs reference
+HCP1036,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 6,-2.4583716789243146,lowers estimate vs reference
+HCP3714,territory,Territory: West,8.672535585905456,raises estimate vs reference
+HCP3714,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.620215306261029,raises estimate vs reference
+HCP3714,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 2,4.910200894097709,raises estimate vs reference
+HCP1582,hcp_stage,Recorded stage: Never accepted a sample,21.758136044123237,raises estimate vs reference
+HCP1582,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 1145,-6.249403943053028,lowers estimate vs reference
+HCP1582,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.303116940339635,lowers estimate vs reference
+HCP1719,territory,Territory: South,11.87864717528049,raises estimate vs reference
+HCP1719,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 3,5.5306437692945165,raises estimate vs reference
+HCP1719,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 3,-3.3726669231383997,lowers estimate vs reference
+HCP3560,territory,Territory: South,11.85527781443794,raises estimate vs reference
+HCP3560,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 5,6.8982950374602945,raises estimate vs reference
+HCP3560,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.29573108713547,lowers estimate vs reference
+HCP3774,hcp_stage,Recorded stage: Testing phase,13.31946422872361,raises estimate vs reference
+HCP3774,territory,Territory: South,11.54718492266927,raises estimate vs reference
+HCP3774,calls_last_90d,Calls in the last 90 days: 1,-4.553426050974447,lowers estimate vs reference
+HCP3793,territory,Territory: West,8.612756501562089,raises estimate vs reference
+HCP3793,has_two_or_more_visits,"Has two or more historical visits (1=yes, 0=no): 1",5.725959945316759,raises estimate vs reference
+HCP3793,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -1,2.794580050686312,raises estimate vs reference
+HCP3503,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 68,11.821964263722744,raises estimate vs reference
+HCP3503,category_prescriptions_before_90d,Category prescriptions in the last 90 days: 422,-8.930992795699574,lowers estimate vs reference
+HCP3503,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 61,7.7594124281913315,raises estimate vs reference
+HCP3490,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 43,9.604913965859877,raises estimate vs reference
+HCP3490,brand_share_90d,Client-brand share of category prescriptions: 20.7%,-7.7062478535160945,lowers estimate vs reference
+HCP3490,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 40,6.316906070767536,raises estimate vs reference
+HCP0540,territory,Territory: West,8.395315902291674,raises estimate vs reference
+HCP0540,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.550262401444117,raises estimate vs reference
+HCP0540,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 1,-3.9929392459602866,lowers estimate vs reference
+HCP3117,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 7,8.438376879327848,raises estimate vs reference
+HCP3117,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 22,4.422349266405051,raises estimate vs reference
+HCP3117,territory,Territory: Central,2.369454791396824,raises estimate vs reference
+HCP0010,territory,Territory: South,11.787475411328877,raises estimate vs reference
+HCP0010,brand_rx_change_90d,Brand prescription change between the two 90-day periods: -1,2.7421223517019415,raises estimate vs reference
+HCP0010,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 7,-2.1502550817160913,lowers estimate vs reference
+HCP1841,hcp_stage,Recorded stage: Never accepted a sample,9.467794610505258,raises estimate vs reference
+HCP1841,territory,Territory: West,7.155367194797013,raises estimate vs reference
+HCP1841,brand_prescriptions_previous_90d,Client-brand prescriptions in the preceding 90 days: 0,-4.2759583550298395,lowers estimate vs reference
+HCP1914,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 14,13.087442179522036,raises estimate vs reference
+HCP1914,territory,Territory: South,11.761992558305902,raises estimate vs reference
+HCP1914,brand_share_90d,Client-brand share of category prescriptions: 27.1%,-10.442156961741306,lowers estimate vs reference
+HCP2224,brand_rx_change_90d,Brand prescription change between the two 90-day periods: 6,7.700159590747431,raises estimate vs reference
+HCP2224,brand_prescriptions_before_90d,Client-brand prescriptions in the last 90 days: 19,3.428889344027929,raises estimate vs reference
+HCP2224,territory,Territory: Central,2.260877447887561,raises estimate vs reference

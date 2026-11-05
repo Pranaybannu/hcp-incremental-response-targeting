@@ -1,0 +1,46 @@
+{
+  "rows": 4000,
+  "input_columns": 19,
+  "model_feature_columns": 20,
+  "missing_before": {
+    "most_recent_visit_timestamp": 1170,
+    "prescriptions_week_before_visit": 1170,
+    "rep_review_with_interpretation": 1170,
+    "rep_review_timestamp": 1170,
+    "interpretation_as_of_date": 1170,
+    "days_since_previous_visit": 2308
+  },
+  "missing_after_in_imputed_data": {
+    "most_recent_visit_timestamp": 1170,
+    "rep_review_timestamp": 1170,
+    "interpretation_as_of_date": 1170
+  },
+  "missing_in_model_features": 0,
+  "categorical_mapping": {
+    "territory": {
+      "Central": "territory_central",
+      "East": "territory_east",
+      "North": "territory_north",
+      "South": "territory_south",
+      "West": "territory_west"
+    },
+    "hcp_specialty": {
+      "Dermatology": "hcp_specialty_dermatology",
+      "Primary care": "hcp_specialty_primary_care"
+    },
+    "hcp_stage": {
+      "Never accepted a sample": "hcp_stage_never_accepted_a_sample",
+      "Testing phase": "hcp_stage_testing_phase",
+      "Already prescribing": "hcp_stage_already_prescribing"
+    }
+  },
+  "imputation": {
+    "prescriptions_week_before_visit": "0 with has_previous_visit indicator",
+    "days_since_previous_visit": "0 with has_two_or_more_visits indicator",
+    "rep_review_with_interpretation": "No previous visit review",
+    "timestamp_metadata": "Retained missing and excluded from X"
+  },
+  "treatment_target_preserved": true,
+  "feature_policy": "No IDs, timestamps, raw review text, treatment, target, tiers or oracle probabilities in X.",
+  "statistical_fitting": "None. All transformations use fixed rules and declared category vocabulary."
+}

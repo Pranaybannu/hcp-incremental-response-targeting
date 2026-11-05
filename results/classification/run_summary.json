@@ -1,0 +1,42 @@
+{
+  "selected_model": "gradient_boosting",
+  "selection_metric": "Validation ROC AUC",
+  "cv": "3-fold stratified CV on training rows only; hyperparameters selected by mean ROC AUC",
+  "training_rows": 2400,
+  "validation_rows": 800,
+  "classification_threshold": 0.5,
+  "feature_names": [
+    "prescriptions_week_before_visit",
+    "calls_last_90d",
+    "visits_last_12m",
+    "category_prescriptions_before_90d",
+    "brand_prescriptions_before_90d",
+    "brand_prescriptions_previous_90d",
+    "days_since_previous_visit",
+    "samples_accepted_previous_visits",
+    "has_previous_visit",
+    "has_two_or_more_visits",
+    "territory_central",
+    "territory_east",
+    "territory_north",
+    "territory_south",
+    "territory_west",
+    "hcp_specialty_dermatology",
+    "hcp_specialty_primary_care",
+    "hcp_stage_never_accepted_a_sample",
+    "hcp_stage_testing_phase",
+    "hcp_stage_already_prescribing",
+    "days_since_most_recent_visit",
+    "brand_share_90d",
+    "brand_rx_change_90d"
+  ],
+  "models_refitted_on": "Training set only, as part of GridSearchCV",
+  "test_evaluated": false,
+  "note": "Predictive classification only. No visit-effect or causal claims.",
+  "versions": {
+    "python": "3.12.10",
+    "pandas": "3.1.1",
+    "scikit_learn": "1.9.1",
+    "xgboost": "3.4.1"
+  }
+}

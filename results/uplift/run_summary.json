@@ -1,0 +1,33 @@
+{
+  "method": "T-learner, two independent logistic regressions",
+  "C": 0.1,
+  "class_weight": null,
+  "hyperparameters": "Prespecified; no tuning on test or model selection",
+  "refit_rows": 3200,
+  "control_training_rows": 1577,
+  "visited_training_rows": 1623,
+  "test_rows": 800,
+  "test_observed_ate": 0.15706033857617963,
+  "test_mean_predicted_uplift": 0.14617263340749245,
+  "arm_prediction_metrics": [
+    {
+      "arm": 0,
+      "test_rows": 394,
+      "auc": 0.8926787981379602,
+      "brier": 0.12903891584353633
+    },
+    {
+      "arm": 1,
+      "test_rows": 406,
+      "auc": 0.8609472483188891,
+      "brier": 0.15242957610523525
+    }
+  ],
+  "top20_uplift_difference_ci95": [
+    0.03542525855644567,
+    0.39556048556708917
+  ],
+  "causal_assumption": "Synthetic randomized additional visit; all assignments completed; no interference.",
+  "limitations": "Synthetic evidence only. Previously inspected test set. Bootstrap holds models fixed; no training uncertainty. Tiny selected arms are noisy.",
+  "metrics_definition": "scikit-uplift normalized Qini and uplift AUC; top-k is visited rate minus control rate within overall selected fraction."
+}

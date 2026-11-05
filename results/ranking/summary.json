@@ -1,0 +1,8 @@
+{
+  "universe": 4000,
+  "eligible_ge3": 1028,
+  "original_validation_ge3": 213,
+  "test_ge3": 204,
+  "synthetic_rep_plan": 400,
+  "model_top400_on_synthetic_plan": 211
+}
